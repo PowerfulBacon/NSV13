@@ -76,7 +76,8 @@
 	name = "\improper Solir 4 revolver hybrid"
 	desc = "A retro high-powered shotgun revolver typically used by high ranking officials. Uses shells."
 	icon_state = "shotgunpistol"
-	weapon_weight = WEIGHT_CLASS_NORMAL
+	weapon_weight = WEAPON_LIGHT
+	w_class = WEIGHT_CLASS_NORMAL
 	rack_sound = 'sound/weapons/revolverdry.ogg'
 	bolt_type = BOLT_TYPE_NO_BOLT
 	semi_auto = TRUE
