@@ -982,7 +982,6 @@ structure_check() searches for nearby cultist structures required for the invoca
 		L.Paralyze(30)
 	empulse(T, 0.42*(intensity), 1)
 	var/list/images = list()
-	var/zmatch = T.z
 	var/datum/atom_hud/AH = GLOB.huds[DATA_HUD_SECURITY_ADVANCED]
 	for(var/mob/living/M in GLOB.alive_mob_list)
 		if(M.get_z_level(TRUE) != T.get_z_level(TRUE))

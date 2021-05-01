@@ -3230,6 +3230,7 @@
 #include "nsv13\code\__HELPERS\priority_announce.dm"
 #include "nsv13\code\_DEFINES\capital_ship_flags.dm"
 #include "nsv13\code\_DEFINES\components.dm"
+#include "nsv13\code\_DEFINES\fighers2.dm"
 #include "nsv13\code\_DEFINES\fleets.dm"
 #include "nsv13\code\_DEFINES\medal.dm"
 #include "nsv13\code\_DEFINES\missions.dm"

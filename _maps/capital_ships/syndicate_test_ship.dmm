@@ -1,0 +1,14970 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"ah" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"ai" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/computer/ship/munitions_computer{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"aj" = (
+/turf/closed/wall/ship,
+/area/hammurabi)
+"ak" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"al" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/overmap/fighter/utility/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"am" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"aq" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ax" = (
+/obj/machinery/computer/ship/viewscreen,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ay" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"aO" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"aQ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"aR" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"aW" = (
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"bd" = (
+/obj/machinery/porta_turret/syndicate/pod,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"be" = (
+/obj/machinery/door/airlock/ship/maintenance,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"bg" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_engihangar"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"bh" = (
+/obj/structure/fighter_launcher{
+	dir = 4;
+	name = "White 1"
+	},
+/obj/effect/turf_decal/loading_area/white{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"bj" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"bk" = (
+/obj/machinery/door/airlock/ship{
+	name = "Bunk A"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"bm" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"bo" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"bs" = (
+/obj/structure/munitions_trolley,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"bv" = (
+/obj/machinery/computer/ship/viewscreen,
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"bA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"bG" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/door/window/westleft{
+	name = "Cloning Shower"
+	},
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/mirror{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"bK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/hangar)
+"bL" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"bO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"bP" = (
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"bV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"bZ" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi)
+"ca" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"ck" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"co" = (
+/obj/structure/closet/wardrobe/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"cs" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"cw" = (
+/obj/machinery/computer/ship/fighter_launcher{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"cE" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"cF" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"cG" = (
+/obj/structure/table/reinforced,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"cM" = (
+/obj/item/ammo_casing/a357{
+	projectile_type = null
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"cR" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"cT" = (
+/obj/machinery/door/airlock/ship/maintenance,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"cU" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"cW" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"cY" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"df" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"di" = (
+/obj/structure/closet/crate{
+	name = "railgun projectile crate"
+	},
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"dj" = (
+/obj/item/gun/ballistic/automatic/c20r/toy/unrestricted/riot,
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"dk" = (
+/obj/structure/bed{
+	layer = 2.8
+	},
+/obj/structure/bed{
+	layer = 3;
+	pixel_y = 12
+	},
+/obj/item/bedsheet/black{
+	pixel_y = 12
+	},
+/obj/item/bedsheet/black{
+	layer = 2.85
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"du" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"dx" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"dE" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"dI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"dK" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"dP" = (
+/obj/structure/closet/secure_closet/freezer/meat{
+	locked = 0
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"dT" = (
+/obj/machinery/door/airlock/ship{
+	name = "Port Hallway"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/stairs/medium,
+/area/hammurabi)
+"dV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"dX" = (
+/obj/machinery/computer/ship/viewscreen,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"ec" = (
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"eg" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"ei" = (
+/obj/structure/shuttle/engine/huge{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"en" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/chair/office{
+	dir = 4;
+	name = "tactical swivel chair"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"er" = (
+/turf/closed/wall/ship,
+/area/hammurabi/maintenance)
+"eD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"eE" = (
+/obj/structure/window/reinforced/fulltile/ship,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"eG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"eI" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"eK" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"eL" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"eN" = (
+/obj/structure/sign/poster/contraband/lusty_xenomorph{
+	pixel_x = -32
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"eP" = (
+/obj/machinery/door/airlock/ship{
+	name = "Infirmary"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"eQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"eR" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"eS" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"eV" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"eZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"fa" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fb" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"fc" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/west{
+	pixel_x = -24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"fh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fi" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"fl" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"fm" = (
+/obj/structure/table/wood,
+/obj/item/pizzabox/mushroom{
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fo" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"fp" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/ointment,
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"fs" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fu" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"fA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "syndi_gold1_exterior";
+	name = "Gold 1 exterior doors";
+	pixel_y = -4;
+	pixel_z = 1
+	},
+/obj/machinery/button/door{
+	id = "syndi_gold1_interior";
+	name = "Gold 1 interior doors";
+	pixel_y = 7;
+	pixel_z = 1
+	},
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"fB" = (
+/obj/structure/chair/comfy/shuttle{
+	color = "#696969";
+	dir = 4;
+	name = "captain's chair"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "syndi_cic";
+	name = "Blast doors";
+	pixel_x = -28
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"fE" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = 32
+	},
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"fW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"gc" = (
+/obj/structure/closet/toolcloset,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ge" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"gf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"go" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"gp" = (
+/obj/structure/fluff/bleepypanel{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi)
+"gv" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"gA" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"gE" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plating,
+/area/hammurabi)
+"gG" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"gK" = (
+/obj/structure/fluff/bleepypanel,
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi)
+"gM" = (
+/obj/machinery/door/airlock/ship/maintenance{
+	req_access_txt = "150"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"gY" = (
+/obj/structure/particle_accelerator/particle_emitter/center{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"gZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"hb" = (
+/obj/machinery/clonepod,
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"hd" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"hf" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"hi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"hl" = (
+/obj/structure/sign/warning/explosives/alt,
+/turf/closed/wall/ship,
+/area/hammurabi/hangar)
+"hs" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay2,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"hw" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"hx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"hE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"hG" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	name = "Hangar Bay";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"hI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"hN" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"hP" = (
+/obj/machinery/door/airlock/ship{
+	name = "Engineering Wing";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"hR" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndicell3"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"hS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/item/ship_weapon/ammunition/missile,
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"hW" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"hY" = (
+/obj/machinery/computer/ship/ftl_computer/syndicate{
+	dir = 4;
+	icon_state = "ftl_off"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"id" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ig" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"ii" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	bound_height = 64;
+	bound_width = 32;
+	dir = 4;
+	name = "CIC";
+	pixel_x = -32;
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"ij" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"ik" = (
+/obj/item/ship_weapon/ammunition/missile,
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"io" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ip" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"iq" = (
+/obj/structure/chair/office{
+	name = "tactical swivel chair"
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"ir" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"it" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"iw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"ix" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"iy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"iz" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"iH" = (
+/obj/structure/lattice,
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/maintenance/exterior)
+"iQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"iS" = (
+/obj/machinery/door/airlock/ship{
+	name = "Freezer"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"jm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"js" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/automatic/c20r/unrestricted,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"ju" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"jv" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"jx" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"jz" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"jD" = (
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"jE" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"jF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"jK" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"jL" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"jN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"jT" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"jU" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"jW" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"jZ" = (
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"kc" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/ship,
+/turf/open/floor/plating,
+/area/hammurabi)
+"km" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/storage/belt/utility/full,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"kn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"kp" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"ks" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"ky" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"kG" = (
+/obj/machinery/atmospherics/components/unary/tank/oxygen,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"kK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"kP" = (
+/obj/structure/closet/bombcloset/security,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"kQ" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"kR" = (
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/tcomms)
+"kS" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/computer/ship/munitions_computer{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"kW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"kZ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"lb" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"le" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/syndie/surgery,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"lj" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"lk" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/hammurabi)
+"lm" = (
+/obj/structure/fluff/bleepypanel{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/tcomms)
+"ls" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"lt" = (
+/obj/machinery/computer/cloning,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"lx" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"lz" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"lE" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"lN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"lP" = (
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"lQ" = (
+/obj/structure/closet/toolcloset,
+/obj/item/pipe_dispenser,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"lS" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"lT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"lY" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/hammurabi)
+"lZ" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/turf/closed/wall/ship,
+/area/hammurabi/hangar)
+"mb" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"me" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"mf" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"mg" = (
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"mh" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"mm" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"mr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"mt" = (
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"mx" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"mA" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"mC" = (
+/obj/machinery/telecomms/relay/preset/mining/nostromo,
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"mD" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead/decoy,
+/obj/item/ship_weapon/parts/missile/warhead/decoy,
+/obj/item/ship_weapon/parts/missile/warhead/decoy,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"mE" = (
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"mF" = (
+/obj/machinery/atmospherics/components/binary/magnetic_constrictor{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"mG" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"mI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"mN" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"mO" = (
+/obj/structure/hull_plate/end{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"mQ" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"mT" = (
+/obj/structure/reagent_dispensers/fueltank/aviation_fuel,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"mU" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"mV" = (
+/obj/structure/reagent_dispensers/fueltank/aviation_fuel,
+/obj/effect/turf_decal/box/white,
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"nc" = (
+/obj/structure/hull_plate/end{
+	dir = 6
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"nd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/closet/radiation,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"nh" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ni" = (
+/obj/structure/bed/roller,
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"nt" = (
+/obj/structure/window/reinforced/fulltile/ship,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"nv" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay3,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"ny" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"nC" = (
+/obj/effect/turf_decal/loading_area/white{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"nD" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"nL" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"nN" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_engihangar"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hammurabi)
+"nR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"nS" = (
+/obj/machinery/door/airlock/ship{
+	name = "Bunk B"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"oa" = (
+/obj/machinery/computer/ship/dradis/minor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"oc" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"op" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ou" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"oB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"oD" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"oJ" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"oL" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"oM" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/head/welding{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/clothing/head/welding,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"oN" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/hangar)
+"oO" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"oP" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"oR" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"oV" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"oX" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/meter,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"pc" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"pd" = (
+/obj/machinery/button/door{
+	id = "syndicell3";
+	name = "Cell 3";
+	pixel_y = 28;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"pf" = (
+/obj/machinery/ship_weapon/torpedo_launcher/east,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"pl" = (
+/obj/structure/hull_plate,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"ps" = (
+/obj/structure/sign/poster/contraband/d_day_promo,
+/turf/closed/wall/ship,
+/area/hammurabi/armoury)
+"pt" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"pw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"pz" = (
+/obj/structure/table/wood,
+/obj/item/toy/nuke,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"pC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"pF" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_gold2_exterior";
+	name = "Gold 2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"pH" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"pI" = (
+/obj/structure/sign/poster/contraband/syndicate_recruitment,
+/turf/closed/wall/ship,
+/area/hammurabi/maintenance)
+"pO" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"pQ" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"pV" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	bound_height = 64;
+	bound_width = 32;
+	dir = 4;
+	name = "Cloning";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"qb" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"qi" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay4,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"qo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"qp" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"qt" = (
+/obj/structure/bed,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"qz" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_white1_exterior";
+	name = "White 1"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"qA" = (
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"qG" = (
+/obj/structure/shuttle/engine/huge{
+	dir = 8
+	},
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"qI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"qO" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/computer/lore_terminal,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"qS" = (
+/obj/machinery/computer/ship/helm{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"qX" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"qZ" = (
+/obj/machinery/door/airlock/ship{
+	name = "Brig";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"rf" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/plasma{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"rh" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"rl" = (
+/turf/open/floor/monotile/dark,
+/area/hammurabi/medbay)
+"rp" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"rr" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/ammunition/torpedo/decoy{
+	desc = "A torpedo with hastily applied syndicate colourings and a pair of googly eyes taped onto it. The perfect munitions mascot.";
+	name = "Evil antonio"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"rv" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"ry" = (
+/obj/structure/target_stake,
+/obj/item/target,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"rI" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/hammurabi)
+"rJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"rL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"rN" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"rO" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"rP" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/hangar)
+"rQ" = (
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"rT" = (
+/obj/structure/sign/poster/contraband/syndicate_recruitment,
+/turf/closed/wall/ship,
+/area/hammurabi)
+"sb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"sc" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"sf" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"sg" = (
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/glass/bottle/charcoal{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/glass/bottle/charcoal{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/syringe/epinephrine{
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/syringe/epinephrine{
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/syringe/epinephrine{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/syringe/epinephrine{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"sj" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"sk" = (
+/turf/closed/wall/ship,
+/area/hammurabi/medbay)
+"sn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hammurabi/medbay)
+"so" = (
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"su" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"sy" = (
+/obj/machinery/door/airlock/ship/maintenance,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"sz" = (
+/obj/machinery/door/airlock/ship/maintenance,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"sC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"sN" = (
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"sO" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"sR" = (
+/obj/structure/fluff/bleepypanel,
+/turf/closed/wall/ship,
+/area/hammurabi)
+"sX" = (
+/obj/structure/hull_plate/end,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"sY" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay2,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"td" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"tf" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"tl" = (
+/obj/structure/fighter_launcher{
+	name = "Gold 2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"tm" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "syndi_gold2_exterior";
+	name = "Gold 2 exterior doors";
+	pixel_y = -4;
+	pixel_z = 1
+	},
+/obj/machinery/button/door{
+	id = "syndi_gold2_interior";
+	name = "Gold 2 interior doors";
+	pixel_y = 7;
+	pixel_z = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"tz" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"tL" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"tP" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"tQ" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"tV" = (
+/obj/machinery/particle_accelerator/control_box,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"tX" = (
+/obj/machinery/computer/monitor,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ue" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"uf" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"ug" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"uh" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"uj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"ul" = (
+/obj/structure/sign/poster/contraband/c20r,
+/turf/closed/wall/ship,
+/area/hammurabi/maintenance)
+"um" = (
+/turf/closed/wall/ship,
+/area/hammurabi/tcomms)
+"uv" = (
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/maintenance)
+"uz" = (
+/obj/machinery/door/airlock/ship/maintenance{
+	name = "Gravity Generator";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"uA" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/ointment,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"uD" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "syndi_white2_exterior";
+	name = "White 2 exterior doors";
+	pixel_y = -4;
+	pixel_z = 1
+	},
+/obj/machinery/button/door{
+	id = "syndi_white2_interior";
+	name = "White 2 interior doors";
+	pixel_y = 7;
+	pixel_z = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"uF" = (
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"uJ" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay3,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"uK" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"uP" = (
+/obj/structure/bed{
+	layer = 2.8
+	},
+/obj/structure/bed{
+	layer = 3;
+	pixel_y = 12
+	},
+/obj/item/bedsheet/black{
+	pixel_y = 12
+	},
+/obj/item/bedsheet/black{
+	layer = 2.85
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"uR" = (
+/obj/structure/particle_accelerator/fuel_chamber{
+	dir = 8
+	},
+/obj/effect/landmark/nuclear_waste_spawner,
+/turf/open/floor/plating,
+/area/hammurabi)
+"uS" = (
+/obj/structure/closet/syndicate/personal,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"uW" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"uX" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"va" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"vc" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_gold1_exterior";
+	name = "Gold 1"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"vj" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/cable_coil,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"vo" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/fluff/bleepypanel{
+	pixel_y = 32
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"vr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"vv" = (
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"vx" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"vB" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"vM" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"vP" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"vV" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/general/visible,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"vW" = (
+/obj/machinery/door/airlock/ship{
+	name = "Ballistic Systems"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"vX" = (
+/obj/structure/particle_accelerator/power_box{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"wd" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"wh" = (
+/obj/machinery/door/airlock/ship/hatch{
+	name = "Gold Launch Tubes";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"wl" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"ws" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"wt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"wv" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"wy" = (
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"wz" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"wB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"wE" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"wF" = (
+/obj/structure/table,
+/obj/item/storage/box/handcuffs{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/box/zipties,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"wG" = (
+/obj/machinery/door/airlock/ship{
+	name = "Briefing"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"wH" = (
+/obj/effect/turf_decal/delivery,
+/obj/vehicle/sealed/car/realistic/fighter_tug,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"wI" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"wM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"wP" = (
+/turf/open/floor/mech_bay_recharge_floor,
+/area/hammurabi)
+"wQ" = (
+/obj/structure/lattice,
+/obj/machinery/porta_turret/syndicate/pod,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"wS" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"wV" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"xd" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"xe" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/landmark/nuclear_waste_spawner,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"xl" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"xm" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"xs" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"xB" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"xC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"xD" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/obj/machinery/door/poddoor/ship/preopen{
+	dir = 4;
+	id = "syndi_cic";
+	name = "CIC Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"xG" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/automatic/c20r/unrestricted,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"xK" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"xN" = (
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/hammurabi)
+"xP" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/hammurabi)
+"xY" = (
+/obj/machinery/door/airlock/ship{
+	name = "Armoury";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"ya" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"yd" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay5,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"yf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"yk" = (
+/obj/machinery/door/airlock/ship/external/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"yl" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/drinkingglasses,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"yp" = (
+/obj/machinery/door/airlock/ship{
+	name = "Brig";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/stairs/medium,
+/area/hammurabi)
+"yx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"yy" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"yD" = (
+/obj/machinery/door/airlock/ship{
+	name = "Bunk C"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"yF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/computer/crew/syndie{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"yL" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"yN" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"yO" = (
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"yV" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"yW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"yZ" = (
+/obj/item/ship_weapon/ammunition/torpedo/nuke,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/hammurabi)
+"ze" = (
+/obj/machinery/door/airlock/ship{
+	name = "Weapons Bay";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"zf" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"zi" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"zj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"zl" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay5,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"zo" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"zp" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"zv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"zw" = (
+/obj/structure/closet/crate{
+	name = "railgun projectile crate"
+	},
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"zz" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"zG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"zJ" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"zN" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"zT" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"Ac" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Ah" = (
+/obj/machinery/computer/lore_terminal,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Ak" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_fighterstorage";
+	name = "Fighter storage"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Am" = (
+/obj/machinery/door/airlock/ship/maintenance{
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Ap" = (
+/obj/structure/closet/toolcloset,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Aq" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndicell1"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Aw" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	name = "Equipment Room";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"AE" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/obj/machinery/door/poddoor/ship/preopen{
+	dir = 1;
+	id = "syndi_cic";
+	name = "CIC Blast Doors"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"AJ" = (
+/obj/structure/munitions_trolley,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"AK" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"AN" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plating,
+/area/hammurabi)
+"AQ" = (
+/obj/structure/fluff/bleepypanel{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/tcomms)
+"AR" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"AS" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"AV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"AW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"AY" = (
+/obj/structure/target_stake,
+/obj/item/target/clown,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"Ba" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/bot_white,
+/obj/item/surgical_drapes,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Bd" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"Be" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndicell2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Bh" = (
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi)
+"Bj" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Bk" = (
+/obj/machinery/door/airlock/ship/external/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Bm" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Br" = (
+/obj/structure/fighter_launcher{
+	dir = 4;
+	name = "White 2"
+	},
+/obj/effect/turf_decal/loading_area/white{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Bt" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Bu" = (
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/hangar)
+"BH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"BI" = (
+/obj/structure/sign/poster/contraband/c20r{
+	pixel_y = -6
+	},
+/turf/closed/wall/ship,
+/area/hammurabi)
+"BJ" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"BK" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi)
+"BN" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"BO" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"BZ" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Cb" = (
+/obj/structure/sign/poster/contraband/revolver,
+/turf/closed/wall/ship,
+/area/hammurabi)
+"Cd" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/syndicake{
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Cg" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/rum,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Ch" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/duranium/fifty,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Cl" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Cs" = (
+/obj/structure/hull_plate/end{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"Cv" = (
+/obj/machinery/ship_weapon/pdc_mount/north,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"CA" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"CD" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"CG" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/overmap/fighter/light/syndicate{
+	angle = 90
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"CJ" = (
+/obj/machinery/computer/ship/dradis{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"CM" = (
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"CN" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/automatic/c20r/unrestricted,
+/obj/item/gun/ballistic/automatic/c20r/unrestricted{
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"CO" = (
+/obj/machinery/door/airlock/ship{
+	name = "Cryostasis"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"CU" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/cable_coil/white,
+/obj/item/stack/cable_coil/white,
+/obj/item/crowbar/red,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"CW" = (
+/obj/machinery/door/airlock/ship/external/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Dd" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Dg" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/construction/rcd,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Di" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"Dt" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Dy" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hammurabi)
+"DC" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"DP" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/obj/machinery/meter,
+/turf/open/space/basic,
+/area/hammurabi)
+"DS" = (
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"DT" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_fighterstorage";
+	name = "Fighter storage"
+	},
+/obj/machinery/button/door{
+	id = "syndi_fighterstorage";
+	name = "Fighter storage";
+	pixel_y = -28
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"DX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"DZ" = (
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Ec" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"Ef" = (
+/obj/structure/fluff/bleepypanel{
+	pixel_y = 32
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Ej" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"Em" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/key/fighter_tug,
+/obj/item/key/fighter_tug,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Ep" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/lore_terminal{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"Eu" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"Ew" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_white2_exterior";
+	name = "White 2"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Ey" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew_leader,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"EE" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"EI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"EL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"EO" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"EQ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plating,
+/area/hammurabi)
+"EV" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"EW" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Fc" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	bound_height = 64;
+	bound_width = 32;
+	dir = 4;
+	name = "Hangar Bay";
+	pixel_x = -32;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Fn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hammurabi/armoury)
+"Fp" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Fr" = (
+/obj/machinery/computer/operating,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Ft" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Fv" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Fw" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"FB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"FC" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"FD" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/monotile,
+/area/hammurabi)
+"FF" = (
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"FG" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"FH" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_fighterstorage";
+	name = "Fighter storage"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"FI" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"FJ" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/turf/closed/wall/ship,
+/area/hammurabi/maintenance)
+"FL" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay4,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"FQ" = (
+/obj/machinery/door/airlock/ship{
+	name = "Light Ammuniton Storage";
+	req_one_access_txt = "150"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Gj" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Gn" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/obj/effect/turf_decal/bot_white,
+/obj/item/wrench,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Gp" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Gs" = (
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Gv" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Gw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"GF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/hangar)
+"GG" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/stairs/medium,
+/area/hammurabi)
+"GJ" = (
+/obj/structure/table/reinforced,
+/obj/item/lightreplacer,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"GK" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"GL" = (
+/obj/structure/fighter_launcher{
+	name = "Gold 1"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"GM" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"GO" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"GQ" = (
+/obj/machinery/button/door{
+	id = "syndicell2";
+	name = "Cell 2";
+	pixel_x = 16;
+	pixel_y = 28;
+	req_one_access_txt = "150"
+	},
+/obj/machinery/button/door{
+	id = "syndicell1";
+	name = "Cell 1";
+	pixel_y = 28;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"GR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"GV" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"GY" = (
+/obj/structure/particle_accelerator/end_cap{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Hd" = (
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Hh" = (
+/obj/machinery/door/airlock/ship{
+	name = "Weapons Bay";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Hk" = (
+/obj/machinery/door/airlock/ship/engineering{
+	name = "Engineering Hangar";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Ho" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"Hp" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Hs" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Ht" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_fightersupplies";
+	name = "Fighter supplies storage"
+	},
+/obj/machinery/button/door{
+	id = "syndi_fightersupplies";
+	name = "Fighter supplies storage";
+	pixel_x = -28
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Hv" = (
+/obj/structure/window/reinforced/fulltile/ship,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/hammurabi)
+"HB" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"HD" = (
+/obj/machinery/button/door{
+	id = "syndi_engihangar";
+	name = "pod bay doors";
+	pixel_y = 26
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"HT" = (
+/obj/machinery/door/airlock/ship{
+	name = "Submachine Gun Storage";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"HU" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_gold1_interior";
+	name = "Gold 1 Access"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"If" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Il" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"In" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Iv" = (
+/obj/structure/sink{
+	pixel_y = 32
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"IG" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"IM" = (
+/obj/machinery/processor,
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"IP" = (
+/obj/machinery/door/airlock/ship{
+	name = "Bar"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"IR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"IW" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Je" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Jh" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"Jm" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Jn" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Jo" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"Jt" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Jy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"JB" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"JH" = (
+/obj/structure/hull_plate,
+/obj/machinery/porta_turret/syndicate/shuttle,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"JI" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"JJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"JS" = (
+/obj/machinery/computer/lore_terminal,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"JT" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"JW" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"JZ" = (
+/obj/machinery/door/airlock/ship{
+	name = "Ballistic Systems"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Kd" = (
+/obj/structure/sign/warning/explosives/alt,
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/hangar)
+"Kf" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Kg" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Km" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "syndi_white1_exterior";
+	name = "White 1 exterior doors";
+	pixel_y = -4;
+	pixel_z = 1
+	},
+/obj/machinery/button/door{
+	id = "syndi_white1_interior";
+	name = "White 1 interior doors";
+	pixel_y = 7;
+	pixel_z = 1
+	},
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"Kn" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Ky" = (
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"KB" = (
+/obj/structure/closet/secure_closet/freezer/fridge{
+	locked = 0
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"KC" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/durasteel/fifty,
+/obj/item/stack/cable_coil/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"KD" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_fightersupplies";
+	name = "Fighter supplies storage"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"KE" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"KH" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"KJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"KK" = (
+/obj/machinery/gravity_generator/main/station,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"KO" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"KP" = (
+/obj/machinery/door/airlock/ship{
+	name = "Central frame"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"KS" = (
+/obj/machinery/door/airlock/ship/engineering{
+	name = "Engineering Hangar";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Lb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Lg" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"Lh" = (
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Li" = (
+/obj/structure/table,
+/obj/item/clothing/glasses/blindfold,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Lj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Lo" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Lp" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"Lv" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Lx" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"LB" = (
+/turf/open/floor/plating,
+/area/hammurabi)
+"LE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"LF" = (
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"LH" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"LI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"LP" = (
+/turf/open/space/basic,
+/area/space)
+"LR" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile,
+/area/hammurabi)
+"LU" = (
+/obj/machinery/computer/lore_terminal,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"LV" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Mi" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"Mj" = (
+/obj/structure/hull_plate/end{
+	dir = 1
+	},
+/obj/machinery/porta_turret/syndicate/pod,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"Mk" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"Mm" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay4,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"Mu" = (
+/obj/machinery/door/airlock/ship{
+	name = "Central frame"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Mx" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Mz" = (
+/obj/machinery/door/airlock/ship{
+	name = "Infirmary"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/medbay)
+"MC" = (
+/obj/machinery/door/airlock/glass_large/ship{
+	bound_height = 64;
+	bound_width = 32;
+	dir = 4;
+	name = "Heavy Ammunition Storage";
+	pixel_x = -32
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"MH" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"MK" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/hammurabi)
+"ML" = (
+/obj/structure/closet/crate{
+	name = "railgun projectile crate"
+	},
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/hammurabi)
+"MW" = (
+/obj/machinery/door/airlock/ship{
+	name = "Central frame"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"MZ" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Nb" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"Nd" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Nf" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Ng" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay4,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"Nl" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Nn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"Nv" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Nx" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Nz" = (
+/obj/structure/table/reinforced,
+/obj/item/paicard,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ND" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"NE" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"NF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"NK" = (
+/obj/structure/particle_accelerator/particle_emitter/right{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"NL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"NP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"NS" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway/delay5,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"NT" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"NU" = (
+/obj/machinery/door/airlock/ship{
+	name = "Torpedo Construction"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Oa" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Om" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Os" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay2,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"Ov" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Ow" = (
+/obj/structure/chair/comfy/shuttle{
+	color = "#696969";
+	dir = 4;
+	name = "bridge chair"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"OA" = (
+/obj/machinery/computer/ship/tactical{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"OC" = (
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"OH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"OT" = (
+/obj/structure/cable/yellow,
+/obj/machinery/atmospherics/components/binary/stormdrive_reactor/syndicate{
+	reactor_id = 3
+	},
+/turf/open/floor/engine,
+/area/hammurabi)
+"Pa" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"Ph" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Pj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Pl" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"Po" = (
+/obj/machinery/door/airlock/ship/external/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Pp" = (
+/obj/machinery/computer/ship/fighter_launcher{
+	dir = 1;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"Pu" = (
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	locked = 0
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"Pv" = (
+/obj/machinery/door/airlock/ship{
+	name = "Fortifications"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"PA" = (
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"PE" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/multitool,
+/obj/item/weldingtool/largetank{
+	pixel_y = 3
+	},
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"PF" = (
+/obj/structure/curtain/obscuring/grey,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"PL" = (
+/obj/effect/turf_decal/bot_red/right,
+/obj/item/ammo_casing/a357{
+	projectile_type = null
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"PM" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/cryo_cell,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"PS" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"PV" = (
+/obj/machinery/door/airlock/ship/maintenance{
+	req_one_access_txt = "150"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Qf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"Qg" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Qk" = (
+/obj/structure/reagent_dispensers/fueltank/aviation_fuel,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Qp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Qs" = (
+/obj/item/ship_weapon/ammunition/torpedo/nuke,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Qx" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"Qz" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"QC" = (
+/obj/effect/turf_decal/bot_red/left,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"QF" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"QG" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plating,
+/area/hammurabi)
+"QI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plating,
+/area/hammurabi)
+"QM" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"QN" = (
+/obj/machinery/door/airlock/ship/hatch{
+	name = "White Launch Tubes";
+	req_one_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"QO" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay3,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"QP" = (
+/obj/structure/table/reinforced,
+/obj/item/paper/fluff/stations/centcom/disk_memo,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"QQ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"QT" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Rh" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"Rm" = (
+/obj/machinery/door/poddoor/ship{
+	id = "syndi_gold2_interior";
+	name = "Gold 2 Access"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Rp" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Rr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Rv" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"RE" = (
+/obj/machinery/ship_weapon/railgun,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"RH" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"RN" = (
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"RS" = (
+/obj/structure/lattice,
+/obj/structure/shuttle/engine/huge{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"RT" = (
+/turf/closed/wall/ship,
+/area/hammurabi/armoury)
+"RW" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Sf" = (
+/obj/machinery/vending/cigarette/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Si" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Sj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Sm" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Sq" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"St" = (
+/obj/machinery/door/airlock/ship/maintenance{
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Sv" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Sy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/wall/ship,
+/area/hammurabi)
+"SD" = (
+/obj/machinery/suit_storage_unit/syndicate/odst,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"SH" = (
+/obj/machinery/door/airlock/ship{
+	name = "Firing Range"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"SQ" = (
+/obj/structure/closet/secure_closet/engineering_welding{
+	anchored = 1;
+	name = "munitions welding supplies locker";
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/obj/effect/turf_decal/box/white,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/hangar)
+"ST" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"SW" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"SY" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_white1_interior";
+	name = "White 1 Access"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Te" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Th" = (
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Tk" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"To" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Tp" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/energy/ionrifle,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Tq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/medbay)
+"Ts" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Tu" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Tw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"TB" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/item/wrench,
+/turf/open/floor/plating,
+/area/hammurabi)
+"TH" = (
+/obj/structure/hull_plate/end{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/hammurabi/maintenance/exterior)
+"TI" = (
+/obj/machinery/door/airlock/highsecurity/ship{
+	name = "Elite Boarding"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"TO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/item/ship_weapon/ammunition/missile,
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"TS" = (
+/obj/structure/closet/syndicate/personal,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"TU" = (
+/obj/effect/turf_decal/delivery/red,
+/obj/structure/chair,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"TZ" = (
+/obj/structure/fluff/bleepypanel{
+	dir = 4
+	},
+/turf/closed/wall/ship,
+/area/hammurabi/tcomms)
+"Ua" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Uc" = (
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"Ui" = (
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi/hangar)
+"Uk" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/freezer,
+/area/hammurabi)
+"Un" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Uo" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Ut" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 4
+	},
+/obj/machinery/meter,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Uz" = (
+/obj/structure/particle_accelerator/particle_emitter/left{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"UA" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/shaker,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"UI" = (
+/turf/closed/wall/ship,
+/area/hammurabi/hangar)
+"UL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"UO" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"UQ" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"US" = (
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"UV" = (
+/obj/structure/closet/toolcloset,
+/obj/item/construction/rcd,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Vk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/computer/ship/navigation{
+	dir = 8;
+	icon_state = "computer"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Vl" = (
+/obj/machinery/atmospherics/pipe/manifold/yellow/visible,
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Vo" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Vv" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Vx" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"VC" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/runway/delay2,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/hammurabi)
+"VE" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"VF" = (
+/obj/structure/lattice,
+/obj/machinery/light/runway,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"VG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"VM" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"VP" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/landmark/start/nukeop/syndi_crew,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"VQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"VR" = (
+/obj/structure/munitions_trolley,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"VU" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Wb" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"Wd" = (
+/obj/machinery/door/airlock/ship{
+	name = "TE/LE/COM core"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile,
+/area/hammurabi/tcomms)
+"Wf" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Wg" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"Wh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Wi" = (
+/obj/machinery/computer/secure_data/syndie{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Wk" = (
+/obj/structure/peacekeeper_barricade/metal/plasteel,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Wr" = (
+/obj/machinery/atmospherics/components/unary/tank/toxins,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Ws" = (
+/obj/machinery/computer/ship/viewscreen,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Wx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/hangar)
+"WB" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"WC" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/cable_coil/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"WD" = (
+/obj/machinery/power/apc/auto_name/north{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"WE" = (
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"WH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"WK" = (
+/obj/structure/chair/office{
+	dir = 4;
+	name = "tactical swivel chair"
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"WQ" = (
+/obj/machinery/door/airlock/ship{
+	name = "Briefing"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"WR" = (
+/obj/machinery/door/airlock/ship{
+	name = "Engineering Wing";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"WV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"WX" = (
+/turf/open/floor/plasteel/stairs/medium,
+/area/hammurabi)
+"Xc" = (
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Xd" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/cable_coil,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Xh" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/c20r/toy/unrestricted/riot,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/armoury)
+"Xi" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"Xm" = (
+/obj/machinery/computer/ship/dradis/minor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/ship,
+/area/hammurabi/hangar)
+"Xo" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Xp" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 10
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Xr" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Xs" = (
+/obj/machinery/door/airlock/ship{
+	name = "Barracks"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Xx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/closed/wall/ship,
+/area/hammurabi)
+"XK" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi/medbay)
+"XL" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"XP" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/porta_turret/syndicate/shuttle,
+/turf/open/space/basic,
+/area/hammurabi/maintenance/exterior)
+"XQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi/tcomms)
+"XV" = (
+/obj/structure/sign/poster/contraband/syndicate_recruitment,
+/turf/closed/wall/r_wall/ship,
+/area/hammurabi)
+"XY" = (
+/obj/structure/closet/crate{
+	name = "railgun projectile crate"
+	},
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Ye" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"Yh" = (
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"Yn" = (
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Yp" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c45{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi/armoury)
+"Ys" = (
+/obj/machinery/dna_scannernew,
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/medbay)
+"Yu" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"Yy" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"YA" = (
+/obj/structure/closet/syndicate/personal,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi/armoury)
+"YB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm/directional/north{
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/maintenance)
+"YG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"YI" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"YM" = (
+/obj/effect/landmark/nuclear_waste_spawner,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"YN" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"YZ" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/overmap/fighter/light/syndicate{
+	angle = 90
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"Zb" = (
+/obj/machinery/door/airlock/ship/external/glass{
+	req_one_access_txt = "150"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"Zh" = (
+/turf/open/floor/carpet/red,
+/area/hammurabi)
+"Zk" = (
+/obj/machinery/door/poddoor/ship{
+	dir = 4;
+	id = "syndi_white2_interior";
+	name = "White 2 Access"
+	},
+/turf/open/floor/plating,
+/area/hammurabi/hangar)
+"Zp" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/hammurabi)
+"Zq" = (
+/obj/structure/lattice,
+/turf/open/space,
+/area/hammurabi/maintenance/exterior)
+"Zt" = (
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/hammurabi)
+"Zw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "vent_map_on-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+"Zz" = (
+/obj/structure/table,
+/turf/open/floor/monotile/dark,
+/area/hammurabi)
+"ZA" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/machinery/ship_weapon/mac{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ZC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/computer{
+	dir = 8;
+	icon_state = "computer"
+	},
+/turf/open/floor/plating,
+/area/hammurabi)
+"ZN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/hammurabi)
+"ZO" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/overmap/fighter/utility/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi/hangar)
+"ZR" = (
+/obj/item/ship_weapon/ammunition/torpedo/nuke,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/plating,
+/area/hammurabi)
+"ZT" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/hammurabi)
+"ZU" = (
+/obj/machinery/computer/ship/reactor_control_computer{
+	reactor_id = 3;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/hammurabi)
+
+(1,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(2,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(3,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(4,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(5,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+ei
+OC
+OC
+OC
+ei
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(6,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(7,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(8,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Lg
+IG
+Lg
+Lg
+Lg
+IG
+Lg
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(9,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+qG
+aR
+aR
+aR
+Lg
+iH
+iH
+iH
+iH
+iH
+Lg
+aR
+aR
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(10,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+zi
+OC
+OC
+OC
+Lg
+Lg
+Lg
+Lg
+Lg
+Lg
+Lg
+aR
+aR
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(11,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aR
+OC
+OC
+OC
+OC
+aR
+OC
+VM
+OC
+OC
+OC
+OC
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(12,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+IG
+Lg
+aR
+aR
+aR
+aR
+Bh
+Hv
+nt
+Hv
+Bh
+OC
+OC
+aR
+OC
+OC
+OC
+aR
+aR
+aR
+aR
+aR
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(13,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+wQ
+Bh
+Bh
+Bh
+jm
+LE
+eZ
+Hv
+OC
+Lg
+Lg
+Lg
+OC
+OC
+aR
+Nb
+Nb
+Nb
+aR
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(14,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+OH
+Lv
+zp
+hW
+IR
+OT
+lY
+Hv
+OC
+Lg
+iH
+Lg
+OC
+OC
+aR
+Nb
+sN
+Nb
+aR
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(15,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+pt
+Bh
+Bh
+Bh
+gf
+Nn
+yx
+Hv
+OC
+Lg
+iH
+Lg
+OC
+OC
+aR
+Nb
+sN
+Nb
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(16,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+pt
+aR
+OC
+Bh
+Hv
+eE
+Hv
+Bh
+OC
+Lg
+iH
+Lg
+OC
+OC
+aR
+Nb
+Nb
+Nb
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(17,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+aR
+pt
+aR
+OC
+Hv
+BK
+UO
+BK
+Hv
+OC
+Lg
+iH
+Lg
+OC
+OC
+aR
+aR
+aR
+aR
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(18,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+pt
+aR
+aR
+Hv
+BK
+zl
+BK
+Hv
+aR
+Lg
+iH
+Lg
+OC
+OC
+cE
+aR
+rv
+aR
+cE
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(19,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+pt
+OC
+OC
+Hv
+BK
+qi
+BK
+Hv
+OC
+Lg
+iH
+Lg
+OC
+OC
+Os
+aR
+rv
+aR
+Os
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(20,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Lg
+iH
+Lg
+OC
+pt
+OC
+OC
+Hv
+BK
+QO
+BK
+Hv
+OC
+Lg
+iH
+Lg
+OC
+OC
+Ng
+aR
+rv
+aR
+Ng
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(21,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Lg
+Lg
+Lg
+aR
+pt
+aR
+aR
+Hv
+BK
+VC
+BK
+Hv
+aR
+Lg
+iH
+Lg
+OC
+OC
+Ng
+aR
+rv
+aR
+Ng
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(22,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aR
+OC
+pt
+OC
+OC
+Hv
+BK
+Mi
+BK
+Hv
+OC
+Lg
+Lg
+Lg
+OC
+bd
+aR
+aR
+aR
+aR
+aR
+bd
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(23,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+wQ
+OC
+pt
+OC
+OC
+Hv
+BK
+DP
+BK
+Hv
+OC
+aR
+OC
+OC
+OC
+Bh
+MK
+MK
+MK
+MK
+MK
+Bh
+Po
+Bh
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(24,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aj
+aj
+Zb
+aj
+aj
+Bh
+Hv
+eE
+Hv
+Bh
+aj
+aj
+kc
+kc
+kc
+Bh
+bg
+bg
+bg
+bg
+bg
+Bh
+LB
+Bh
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(25,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aj
+xP
+xm
+LB
+aj
+GJ
+Nl
+Kg
+Nl
+Nl
+NP
+Vv
+WC
+Dg
+PE
+Hv
+LB
+LB
+LB
+LB
+LB
+Hv
+CW
+Bh
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(26,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+ei
+OC
+OC
+OC
+ei
+OC
+OC
+OC
+ei
+OC
+aj
+xP
+nD
+xN
+aj
+tX
+EO
+RW
+yN
+yN
+EW
+Lo
+Th
+Th
+Ch
+Hv
+LB
+lk
+lk
+lk
+LB
+Hv
+LB
+Bh
+rv
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(27,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aj
+aj
+JT
+aj
+aj
+fl
+EO
+CM
+EO
+EO
+Hs
+rf
+Th
+Th
+KC
+Hv
+mG
+lk
+lk
+lk
+Zt
+Hv
+LB
+Bh
+rv
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(28,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+rv
+rv
+rv
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+aj
+UV
+gA
+ju
+oM
+ky
+Uz
+gY
+NK
+EO
+iz
+Ut
+Th
+Th
+yy
+Hv
+LB
+LB
+LB
+LB
+LB
+kc
+LB
+Bh
+rv
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(29,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+rv
+aR
+aR
+er
+er
+er
+er
+FJ
+er
+er
+er
+FJ
+er
+er
+er
+FJ
+er
+er
+er
+lQ
+gA
+Th
+Th
+ky
+mI
+vX
+EQ
+EO
+iz
+Hd
+mF
+cF
+aj
+Bh
+nN
+nN
+nN
+nN
+nN
+Bh
+Hk
+Bh
+Bh
+aR
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(30,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+rv
+OC
+rv
+er
+fb
+wv
+er
+pc
+UL
+UL
+UL
+UL
+UL
+UL
+UL
+UL
+CD
+UL
+PV
+Lx
+gA
+Th
+ZU
+ky
+tV
+uR
+TB
+EO
+iz
+VU
+mF
+Vl
+aj
+HD
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Bh
+aR
+aR
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(31,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+rv
+aR
+rv
+yk
+Ky
+Ky
+Bk
+KO
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+KO
+Ky
+er
+KJ
+gA
+Th
+Th
+ky
+QI
+GY
+zv
+EO
+iz
+Th
+Hs
+ya
+aj
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Bh
+OC
+aR
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(32,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+rv
+OC
+rv
+aR
+rv
+er
+er
+er
+er
+KO
+er
+er
+er
+er
+er
+er
+er
+er
+so
+Ky
+er
+WD
+gA
+Th
+Th
+ky
+EO
+EO
+EO
+EO
+VU
+Yy
+mt
+EO
+aj
+ig
+WV
+bO
+VQ
+Th
+WV
+bO
+VQ
+ij
+Bh
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(33,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+rv
+aR
+rv
+RS
+rv
+aR
+er
+Ky
+Ky
+KO
+er
+DZ
+ks
+ks
+ks
+ks
+DZ
+er
+Ky
+Ky
+er
+Ah
+BN
+Th
+Th
+oV
+Th
+Rr
+Th
+Th
+Th
+Rr
+iz
+EO
+aj
+Th
+ZN
+al
+id
+Th
+ZN
+Fp
+id
+Th
+Bh
+aR
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(34,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+aR
+aR
+rv
+aR
+OC
+OC
+rv
+aR
+er
+Vx
+Ky
+KO
+er
+oL
+lx
+AY
+AY
+lx
+hE
+er
+Ky
+Ky
+er
+gc
+jv
+Pj
+Pj
+yW
+Gs
+yL
+Gs
+Pj
+Pj
+yL
+QT
+ny
+aj
+Th
+kn
+NF
+Lb
+Th
+kn
+NF
+Lb
+Th
+Bh
+aR
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(35,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+aR
+OC
+rv
+aR
+OC
+OC
+rv
+aj
+er
+Ky
+Ky
+KO
+er
+oL
+lx
+lx
+lx
+lx
+hE
+er
+Ky
+Ky
+er
+Ap
+ue
+jW
+jW
+wM
+jW
+jW
+jW
+jW
+jW
+jW
+PS
+Dt
+aj
+lj
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Hv
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(36,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+aR
+Bh
+Bh
+Bh
+bZ
+Bh
+Bh
+Bh
+Ky
+Ky
+Ky
+KO
+er
+oL
+lx
+lx
+lx
+lx
+hE
+er
+Ky
+Ky
+er
+Ap
+DC
+GK
+Th
+EO
+cU
+cU
+cU
+Wr
+oX
+tL
+eL
+Dt
+aj
+Th
+WV
+bO
+VQ
+Th
+WV
+bO
+VQ
+Th
+Hv
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(37,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+aR
+Bh
+EO
+EO
+EO
+EO
+EO
+Bh
+Ky
+er
+Bt
+KO
+er
+kZ
+lx
+lx
+lx
+ry
+jF
+er
+Ky
+Ky
+er
+Xx
+hP
+aj
+WR
+aj
+aj
+aj
+aj
+aj
+aj
+Xp
+oV
+vx
+KS
+Pj
+DX
+To
+Kf
+Kn
+ZN
+Fp
+id
+Th
+Hv
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(38,1,1) = {"
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+EO
+Yu
+Lh
+WB
+EO
+Bh
+Ky
+er
+IW
+KO
+er
+oL
+lx
+lx
+lx
+lx
+hE
+er
+Ky
+Ky
+er
+kp
+lN
+dV
+Dd
+qI
+Sy
+it
+it
+sj
+aj
+HB
+oV
+Dt
+aj
+Th
+kn
+NF
+Lb
+Th
+kn
+NF
+Lb
+Th
+Hv
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(39,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+uf
+Lh
+jD
+KK
+EO
+uz
+Ky
+er
+er
+KO
+er
+oL
+ry
+lx
+lx
+lx
+hE
+er
+Ky
+Ky
+er
+fh
+Dt
+XL
+EO
+Th
+aj
+pO
+pO
+pO
+aj
+Xp
+oV
+Dt
+aj
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+kc
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(40,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+aq
+am
+Lh
+RN
+EO
+Bh
+Ky
+er
+aO
+KO
+er
+DZ
+kW
+kW
+kW
+kW
+DZ
+er
+Ky
+Ky
+er
+fs
+Dt
+XL
+EO
+Th
+aj
+Bj
+Bj
+Bj
+Dy
+EO
+oV
+Dt
+aj
+Th
+WV
+bO
+VQ
+Th
+WV
+bO
+VQ
+Th
+Bh
+OC
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(41,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+EO
+EO
+EO
+EO
+EO
+Bh
+Ky
+Ky
+Ky
+KO
+er
+Xh
+Xh
+dj
+dj
+Xh
+Xh
+er
+Ky
+Ky
+er
+Ws
+Dt
+XL
+EO
+Th
+aj
+In
+oc
+oc
+qo
+Th
+oV
+Dt
+aj
+ig
+ZN
+al
+id
+Th
+ZN
+Fp
+id
+ij
+Bh
+aR
+rv
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(42,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+Bh
+Bh
+uv
+uv
+uv
+uv
+er
+er
+Ky
+KO
+er
+DZ
+DZ
+uh
+DZ
+DZ
+DZ
+er
+Ky
+Ky
+er
+JJ
+VE
+nh
+EO
+Th
+aj
+qO
+LR
+FD
+Ua
+EL
+KH
+YN
+aj
+Th
+kn
+NF
+Lb
+Th
+kn
+NF
+Lb
+Th
+Bh
+OC
+aR
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(43,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+kG
+nR
+Ky
+aO
+Bt
+Ky
+KO
+er
+zJ
+DZ
+Un
+DZ
+DZ
+DZ
+Am
+Ky
+Ky
+sz
+Nv
+xC
+dV
+Dd
+qI
+Sy
+bV
+en
+Jy
+Tw
+qI
+Nf
+EO
+aj
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Bh
+aR
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(44,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+aO
+cY
+UL
+UL
+UL
+UL
+JW
+er
+Cl
+DZ
+rJ
+DZ
+LV
+DZ
+er
+Bt
+NE
+er
+Th
+Dt
+XL
+EO
+ij
+aj
+LB
+LB
+hY
+Dy
+EO
+fs
+EO
+aj
+Th
+Th
+Th
+Th
+Th
+Th
+Th
+Bh
+Bh
+Bh
+aR
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(45,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+AR
+Ky
+jK
+er
+er
+er
+er
+er
+er
+RT
+Fn
+SH
+Fn
+RT
+RT
+er
+er
+er
+er
+Th
+Dt
+XL
+EO
+Th
+aj
+aj
+aj
+aj
+er
+er
+gM
+er
+er
+er
+er
+er
+er
+er
+sz
+er
+er
+zi
+aR
+OC
+OC
+OC
+OC
+wQ
+rv
+rv
+rv
+rv
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(46,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+AR
+Ky
+jK
+er
+xG
+xG
+xG
+xG
+Fn
+ls
+AS
+rJ
+AS
+ls
+RT
+OC
+OC
+OC
+aj
+aj
+MW
+aj
+Mu
+aj
+aj
+OC
+OC
+OC
+er
+Ky
+Hp
+UL
+UL
+UL
+UL
+UL
+UL
+UL
+Wg
+Ky
+er
+aR
+aR
+aR
+aR
+aR
+aR
+aR
+OC
+OC
+OC
+rv
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(47,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+AR
+Ky
+jK
+ul
+vM
+zo
+iw
+iw
+HT
+af
+af
+wz
+AW
+wS
+RT
+OC
+OC
+Dy
+Dy
+Th
+Dt
+sC
+EO
+Th
+Dy
+Dy
+OC
+OC
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
+KO
+Ky
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
+er
+rv
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(48,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+AR
+Ky
+jK
+er
+CN
+js
+js
+js
+Fn
+ls
+AS
+rJ
+AS
+ls
+RT
+OC
+OC
+Dy
+Th
+Th
+Dt
+XL
+EO
+Th
+Th
+Dy
+OC
+OC
+aj
+rQ
+Lh
+Li
+ND
+PL
+NL
+Lh
+Lh
+er
+KO
+Ky
+Ky
+Ky
+NE
+Ky
+Ky
+Ky
+Ky
+er
+fb
+wv
+er
+rv
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(49,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+Ky
+jK
+er
+RT
+RT
+RT
+RT
+RT
+RT
+Fn
+xY
+Fn
+RT
+ps
+aj
+aj
+aj
+Th
+Th
+Dt
+XL
+EO
+Th
+Th
+aj
+aj
+Dy
+aj
+Xc
+Lh
+Zz
+Lh
+oR
+NL
+TU
+Lh
+er
+YB
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+Ky
+yk
+Ky
+Ky
+Bk
+rv
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(50,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+Ky
+jK
+er
+EO
+EO
+io
+EO
+EO
+EO
+EO
+DC
+EO
+EO
+EO
+EO
+aj
+Fv
+EO
+lT
+Dt
+XL
+EO
+lT
+EO
+EO
+aj
+Je
+aj
+uF
+Lh
+wF
+Lh
+QC
+zG
+cM
+hi
+er
+KO
+UI
+UI
+UI
+UI
+UI
+St
+UI
+UI
+UI
+UI
+UI
+UI
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(51,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+aO
+Ov
+sy
+op
+op
+bA
+op
+op
+op
+op
+xB
+WH
+WH
+WH
+WH
+dT
+DX
+WH
+cW
+kQ
+gv
+WH
+cW
+WH
+Kf
+yp
+oB
+qZ
+zj
+jT
+zj
+zj
+LH
+zj
+jT
+Xo
+er
+KO
+UI
+LF
+LF
+LF
+LF
+LF
+Gp
+LF
+LF
+LF
+LF
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(52,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Mj
+pl
+pl
+uv
+Ky
+KO
+er
+Fv
+EO
+EE
+EO
+EO
+EO
+EO
+Tk
+EO
+GK
+EO
+EO
+aj
+uf
+EO
+EO
+EE
+XL
+EO
+EO
+EO
+Je
+aj
+EO
+aj
+GQ
+eQ
+Lh
+Lh
+Lh
+Lh
+eQ
+EO
+Am
+KO
+UI
+LF
+yf
+ws
+jN
+LF
+LF
+LF
+yf
+ws
+jN
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(53,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+pc
+JW
+er
+sk
+sn
+eP
+sn
+sk
+RT
+Fn
+FQ
+Fn
+RT
+RT
+aj
+aj
+aj
+Th
+Th
+EE
+XL
+EO
+Th
+Th
+aj
+aj
+Dy
+aj
+pd
+EO
+mN
+EO
+EO
+mN
+EO
+EO
+er
+KO
+UI
+LF
+Ec
+YZ
+ix
+LF
+LF
+LF
+Ec
+YZ
+ix
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(54,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+KO
+Bt
+er
+sg
+dK
+cs
+dK
+sg
+RT
+UQ
+eG
+zz
+Yp
+RT
+OC
+OC
+Dy
+Th
+Th
+EE
+XL
+EO
+Th
+Th
+Dy
+OC
+OC
+aj
+Aq
+Aq
+Dy
+Be
+Be
+Dy
+hR
+hR
+er
+KO
+UI
+LF
+Ec
+hd
+ix
+LF
+LF
+LF
+Ec
+hd
+ix
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(55,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+uv
+uv
+uv
+uv
+KO
+aO
+er
+fp
+wy
+Sq
+lb
+uA
+RT
+wV
+oD
+DZ
+DZ
+RT
+OC
+OC
+Dy
+Dy
+Th
+EE
+Wb
+EO
+Th
+Dy
+Dy
+OC
+OC
+aj
+EO
+EO
+Dy
+EO
+EO
+Dy
+EO
+EO
+er
+KO
+UI
+LF
+Wx
+Il
+kK
+LF
+LF
+LF
+Wx
+Il
+kK
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(56,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+uv
+fb
+wv
+uv
+KO
+IW
+er
+Uo
+NT
+PM
+QM
+ug
+RT
+UQ
+LV
+Pa
+bo
+RT
+OC
+OC
+OC
+aj
+aj
+KP
+aj
+Mu
+aj
+aj
+OC
+OC
+OC
+aj
+EO
+qt
+Dy
+EO
+qt
+Dy
+EO
+qt
+er
+KO
+UI
+LF
+LF
+LF
+LF
+LF
+LF
+LF
+LF
+LF
+LF
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(57,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+yk
+Ky
+Ky
+Bk
+KO
+Ky
+er
+bv
+hw
+hN
+vV
+wl
+RT
+RT
+RT
+RT
+RT
+RT
+aj
+aj
+aj
+aj
+aj
+EE
+XL
+EO
+td
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+er
+KO
+UI
+LF
+yf
+ws
+jN
+LF
+LF
+LF
+yf
+ws
+jN
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(58,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+uv
+uv
+uv
+uv
+Hp
+Wg
+er
+Gn
+Jo
+PM
+Qx
+dK
+Yn
+eg
+yV
+ec
+sk
+fE
+xs
+FG
+xs
+eS
+aj
+EE
+XL
+EO
+td
+aj
+uP
+ND
+dk
+aj
+uP
+ND
+dk
+aj
+uP
+ND
+dk
+aj
+Bt
+KO
+UI
+LF
+Ec
+ZO
+ix
+LF
+YM
+LF
+Ec
+YZ
+ix
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(59,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+Ky
+fu
+cT
+If
+zT
+sf
+vB
+XK
+XK
+XK
+lb
+dK
+sn
+mQ
+Th
+Th
+Th
+eR
+Dy
+EE
+XL
+EO
+wI
+aj
+Qg
+Lh
+Lh
+aj
+Qg
+Lh
+Lh
+aj
+Qg
+Lh
+Lh
+aj
+IW
+KO
+UI
+sc
+Ec
+hd
+ix
+LF
+aQ
+LF
+Ec
+hd
+ix
+WE
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(60,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+aO
+KO
+er
+qA
+FC
+xl
+xl
+xe
+dx
+JB
+oJ
+QQ
+Mz
+GM
+Pj
+Pj
+Pj
+EV
+CO
+Ts
+XL
+EO
+pH
+aj
+dk
+va
+dk
+aj
+dk
+va
+dk
+aj
+dk
+va
+dk
+aj
+pc
+JW
+UI
+LF
+Wx
+Il
+kK
+LF
+aQ
+LF
+Wx
+Il
+kK
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(61,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Mj
+pl
+pl
+uv
+pc
+JW
+er
+sk
+PF
+PF
+sk
+sk
+LU
+Sj
+dK
+dK
+sn
+mQ
+Th
+Th
+Th
+eR
+Dy
+EE
+XL
+EO
+pH
+aj
+aj
+bk
+aj
+aj
+aj
+nS
+aj
+aj
+aj
+yD
+aj
+aj
+be
+er
+UI
+LF
+LF
+LF
+LF
+LF
+aQ
+LF
+LF
+LF
+LF
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(62,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+YB
+Vx
+er
+le
+vv
+vv
+tz
+sk
+sk
+Sj
+pV
+sk
+sk
+Ho
+ZT
+GV
+ZT
+Ej
+aj
+EE
+XL
+EO
+EO
+Dy
+EO
+DC
+EO
+eN
+EO
+DC
+EO
+EO
+EO
+DC
+EO
+io
+fs
+EO
+UI
+LF
+yf
+ws
+jN
+LF
+aQ
+LF
+yf
+ws
+jN
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(63,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+KO
+aO
+er
+Ba
+vv
+vv
+ni
+sk
+Ys
+Sj
+dK
+dK
+sk
+sz
+er
+er
+aj
+aj
+aj
+ax
+WH
+jL
+fc
+Xs
+fc
+rL
+fc
+fc
+fc
+rL
+fc
+fc
+fc
+rL
+Sm
+qI
+me
+EO
+UI
+LF
+Ec
+ZO
+ix
+LF
+aQ
+LF
+Ec
+YZ
+ix
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(64,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+KO
+aO
+er
+Fr
+dK
+dK
+ni
+sk
+lt
+Tq
+rl
+dK
+sk
+Ky
+Bt
+er
+OC
+OC
+aj
+Ph
+XL
+ge
+EO
+Dy
+EO
+Zp
+EO
+EO
+EO
+Zp
+EO
+EO
+Th
+Zw
+mU
+Th
+fs
+EO
+UI
+LF
+Ec
+hd
+ix
+LF
+aQ
+LF
+Ec
+hd
+ix
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(65,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+Hp
+Wg
+er
+er
+er
+er
+er
+er
+hb
+bG
+dK
+co
+sk
+Ky
+aO
+er
+OC
+OC
+Cb
+EE
+XL
+ge
+tP
+RT
+RT
+RT
+RT
+RT
+RT
+RT
+RT
+EO
+Th
+Th
+uW
+qI
+RH
+EO
+UI
+LF
+Wx
+Il
+kK
+LF
+aQ
+LF
+Wx
+Il
+kK
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(66,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+aO
+Hp
+UL
+UL
+UL
+UL
+Wg
+er
+er
+er
+er
+er
+er
+Ky
+Ky
+AR
+OC
+OC
+Xr
+EE
+XL
+ge
+Sf
+RT
+TS
+TS
+uS
+TS
+TS
+TS
+RT
+EO
+GK
+EO
+hx
+Th
+EO
+EO
+UI
+LF
+fW
+ip
+ay
+ay
+rN
+LF
+LF
+LF
+LF
+LF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(67,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+uv
+Ky
+Ky
+Ky
+Ky
+Ky
+er
+Hp
+UL
+UL
+UL
+UL
+UL
+cT
+UL
+Wg
+AR
+OC
+OC
+Xr
+FB
+XL
+su
+RT
+RT
+AS
+DZ
+DZ
+DZ
+DZ
+AS
+RT
+RT
+UI
+UI
+YG
+Fc
+UI
+UI
+UI
+hl
+Ak
+FH
+DT
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(68,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+Bh
+Bh
+Bh
+aj
+aj
+aj
+aj
+aj
+er
+er
+er
+er
+er
+er
+er
+er
+FF
+KO
+AR
+OC
+OC
+Xr
+EE
+XL
+ge
+RT
+lS
+DZ
+Un
+DZ
+DZ
+DZ
+DZ
+Ye
+RT
+LF
+LF
+Wh
+ip
+ay
+ir
+ay
+ip
+ay
+sb
+LF
+LF
+UI
+bs
+bs
+mT
+mT
+QF
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(69,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+er
+aO
+KO
+AR
+OC
+OC
+Xr
+VE
+WH
+Ft
+Aw
+iw
+rp
+SD
+sO
+sO
+sO
+KE
+AS
+hG
+LF
+yf
+pC
+Di
+LF
+xd
+LF
+aQ
+yf
+ws
+jN
+LF
+Ht
+Mx
+Mx
+Mx
+Mx
+Mx
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(70,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+aj
+aj
+aj
+aj
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+uv
+uv
+KO
+AR
+OC
+OC
+Xr
+Dt
+XL
+ge
+AS
+AS
+rO
+Lp
+Lp
+Lp
+Lp
+BH
+AS
+DZ
+LF
+Ec
+CG
+qb
+LF
+LF
+LF
+aQ
+Ec
+YZ
+ix
+LF
+KD
+mm
+mm
+mm
+mm
+CA
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(71,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+zw
+Th
+Th
+QG
+gK
+Qs
+XL
+XL
+hI
+Si
+jZ
+DS
+XL
+pQ
+uv
+KO
+AR
+OC
+OC
+Xr
+Dt
+XL
+ge
+RT
+Yh
+DZ
+DZ
+DZ
+DZ
+DZ
+qX
+AS
+RT
+LF
+Ec
+Qz
+qb
+LF
+LF
+LF
+aQ
+Ec
+hd
+ix
+LF
+KD
+Mx
+Mx
+Mx
+Mx
+Mx
+Ui
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(72,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+ML
+Th
+Th
+Bm
+gK
+yZ
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+jE
+uv
+KO
+er
+Xr
+Xr
+aj
+WQ
+aj
+wG
+RT
+RT
+AS
+DZ
+DZ
+DZ
+DZ
+oO
+RT
+RT
+LF
+Wx
+iQ
+uj
+LF
+LF
+LF
+aQ
+Wx
+Il
+kK
+LF
+hl
+ik
+ik
+ik
+eI
+eI
+Ui
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(73,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+Bh
+rI
+aj
+XY
+Th
+Th
+gE
+Bh
+ZR
+XL
+XL
+mD
+Xd
+VR
+VR
+XL
+Gv
+uv
+KO
+er
+XL
+XL
+XL
+zf
+sC
+lz
+XL
+RT
+TS
+TS
+YA
+TS
+TS
+oO
+RT
+LF
+LF
+LF
+Sv
+aQ
+GO
+oP
+AJ
+aQ
+LF
+LF
+LF
+WE
+Ui
+Ui
+Ui
+Ui
+Ui
+Ui
+Ui
+NS
+FL
+nv
+hs
+VF
+Zq
+Zq
+Zq
+NS
+FL
+nv
+hs
+VF
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(74,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+rI
+aj
+ML
+Th
+Th
+AN
+gK
+TO
+XL
+XL
+XL
+XL
+XL
+XL
+XL
+jE
+uv
+KO
+er
+wE
+cR
+cR
+uX
+cR
+VP
+XL
+RT
+RT
+RT
+RT
+RT
+RT
+TI
+RT
+US
+Ac
+Ac
+BJ
+aQ
+UI
+UI
+UI
+aQ
+LF
+LF
+LF
+LF
+HU
+dI
+dI
+du
+GL
+dI
+vc
+OC
+OC
+OC
+OC
+Nb
+OC
+Zq
+OC
+Nb
+Nb
+Nb
+Nb
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(75,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+aj
+di
+Th
+Th
+Nd
+gK
+hS
+XL
+XL
+Wb
+GR
+XL
+XL
+XL
+hf
+uv
+KO
+pI
+XL
+cR
+cR
+uX
+cR
+VP
+XL
+rT
+rh
+yl
+Jm
+RT
+tQ
+qX
+RT
+Fw
+yf
+ws
+jN
+aQ
+Qk
+UI
+fo
+aQ
+yf
+ws
+jN
+fi
+HU
+BZ
+BZ
+BZ
+BZ
+BZ
+vc
+aR
+aR
+aR
+aR
+Nb
+OC
+Zq
+OC
+Nb
+sN
+sN
+sN
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(76,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+aj
+aj
+Th
+MC
+aj
+Bh
+Dy
+NU
+Dy
+Dy
+NU
+Dy
+Bh
+Bh
+Bh
+uv
+be
+er
+XL
+cR
+cR
+uX
+cR
+VP
+XL
+fm
+Th
+Th
+UA
+RT
+Bd
+vr
+RT
+LF
+Ec
+ZO
+ix
+aQ
+mV
+UI
+fo
+aQ
+Ec
+YZ
+ix
+LF
+HU
+gZ
+gZ
+gZ
+gZ
+gZ
+vc
+OC
+OC
+OC
+OC
+Nb
+OC
+Zq
+OC
+Nb
+Nb
+Nb
+Nb
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(77,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Cv
+Th
+Th
+Th
+ij
+sR
+XL
+XL
+XL
+XL
+XL
+XL
+BI
+lE
+JI
+Th
+fs
+WX
+XL
+cR
+cR
+uX
+cR
+VP
+XL
+Cd
+Th
+Th
+gG
+RT
+jz
+LV
+RT
+jU
+Ec
+hd
+ix
+aQ
+Oa
+lZ
+SQ
+aQ
+Ec
+hd
+ix
+WE
+Ui
+Ui
+Jn
+Jn
+Jn
+Ui
+Ui
+NS
+FL
+nv
+hs
+VF
+Zq
+Zq
+Zq
+NS
+FL
+nv
+hs
+VF
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(78,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Cv
+Th
+Th
+Th
+Th
+Dy
+Th
+Th
+EO
+EO
+Th
+Th
+sR
+CU
+vx
+Pj
+SW
+GG
+bA
+Eu
+Jh
+df
+Pl
+mA
+BO
+pz
+Pj
+wB
+tf
+RT
+RT
+RT
+RT
+LF
+Wx
+Il
+kK
+aQ
+Rh
+UI
+nL
+aQ
+Wx
+Il
+kK
+LF
+Ui
+fA
+mg
+iq
+Pp
+Jn
+rP
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+aR
+aR
+aR
+OC
+LP
+LP
+LP
+LP
+"}
+(79,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+AK
+Th
+Th
+Th
+Wf
+vW
+iy
+Th
+Tu
+Vo
+Rr
+Wf
+Hh
+iy
+DC
+Th
+ak
+aj
+JS
+Xi
+mr
+Zh
+YI
+mr
+ST
+Cg
+Th
+Th
+Th
+aj
+Uk
+Pu
+UI
+LF
+LF
+LF
+LF
+aQ
+UI
+UI
+UI
+dX
+ay
+ay
+ay
+ay
+wh
+LI
+oN
+Bu
+Xm
+Jn
+rP
+XP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+rv
+rv
+rv
+rv
+rv
+LP
+LP
+LP
+LP
+"}
+(80,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Cv
+Th
+Th
+Rp
+bj
+JZ
+wt
+MZ
+eV
+rr
+yL
+bj
+ze
+wt
+qp
+Th
+wP
+aj
+AK
+Xi
+cG
+QP
+mb
+mr
+XL
+aj
+Iv
+Th
+Th
+iS
+aW
+KB
+UI
+LF
+LF
+LF
+LF
+aQ
+Em
+Nx
+AJ
+aQ
+LF
+LF
+LF
+LF
+Ui
+tm
+mg
+iq
+Pp
+Jn
+rP
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+aR
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(81,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Cv
+Th
+kS
+Th
+Wf
+vW
+iy
+Th
+vj
+km
+Th
+Wf
+Hh
+iy
+Th
+Th
+fa
+aj
+XL
+Xi
+mr
+Ey
+Zh
+mr
+XL
+IP
+Th
+Th
+Th
+aj
+FI
+dP
+UI
+UI
+LF
+yf
+ws
+Qf
+ay
+ip
+ay
+wd
+yf
+ws
+jN
+LF
+Ui
+Ui
+Jn
+Jn
+Jn
+Ui
+Ui
+NS
+FL
+nv
+hs
+VF
+Zq
+Zq
+Zq
+NS
+FL
+nv
+hs
+VF
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(82,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+lj
+Th
+RE
+VQ
+Th
+Dy
+Th
+Th
+EO
+EO
+Th
+ij
+sR
+kP
+kP
+kP
+Tp
+aj
+XL
+lz
+zf
+Wb
+XL
+zf
+XL
+aj
+Om
+eK
+Rv
+aj
+IM
+UI
+UI
+UI
+jU
+Ec
+wH
+qb
+LF
+aQ
+LF
+aQ
+Ec
+wH
+ix
+LF
+Rm
+dI
+dI
+dI
+tl
+dI
+pF
+OC
+OC
+OC
+OC
+Nb
+OC
+Zq
+OC
+Nb
+Nb
+Nb
+Nb
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(83,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+ig
+Th
+XL
+id
+ij
+aj
+AK
+ai
+XL
+ai
+XL
+ai
+um
+um
+TZ
+TZ
+um
+kR
+Bh
+fs
+ii
+XV
+Th
+ii
+Bh
+Bh
+aj
+aj
+Bh
+Bh
+Bh
+Ui
+Jt
+UI
+LF
+Ec
+hd
+qb
+LF
+aQ
+LF
+aQ
+Ec
+hd
+ix
+fi
+Rm
+BZ
+BZ
+BZ
+BZ
+BZ
+pF
+aR
+aR
+aR
+aR
+Nb
+OC
+Zq
+OC
+Nb
+sN
+sN
+sN
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(84,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Th
+Th
+XL
+id
+Th
+aj
+lj
+ZA
+Th
+pf
+Th
+pf
+um
+um
+mC
+pw
+fg
+kR
+Gj
+fs
+DC
+gK
+Th
+DC
+Gj
+Bh
+Wk
+Wk
+Bh
+pl
+pl
+mE
+yO
+bL
+LF
+Wx
+Il
+uj
+LF
+aQ
+LF
+aQ
+Wx
+Il
+kK
+LF
+Rm
+gZ
+gZ
+ah
+gZ
+gZ
+pF
+OC
+OC
+OC
+OC
+Nb
+OC
+Zq
+OC
+Nb
+Nb
+Nb
+Nb
+Nb
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(85,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+Th
+Th
+XL
+id
+Th
+aj
+Th
+bm
+Th
+bm
+Th
+id
+um
+um
+Uc
+Ep
+dE
+Wd
+qI
+mx
+uK
+gK
+Rp
+Ts
+Th
+Pv
+Th
+ij
+Bh
+pl
+pl
+Ui
+PA
+Ui
+LF
+nC
+LF
+xd
+LF
+aQ
+ou
+xd
+LF
+nC
+LF
+LF
+Ui
+Ui
+Ui
+Ui
+Ui
+Ui
+Ui
+NS
+FL
+nv
+hs
+VF
+Zq
+Zq
+Zq
+NS
+FL
+nv
+hs
+VF
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(86,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+Th
+bm
+Lj
+bm
+Th
+id
+um
+um
+Uc
+AV
+XQ
+kR
+jx
+Th
+DC
+gK
+Th
+DC
+Gj
+Bh
+Wk
+Wk
+Bh
+pl
+pl
+Ui
+Ui
+Ui
+SY
+SY
+SY
+Ui
+Kd
+QN
+Ui
+Ui
+Zk
+Zk
+Zk
+Ui
+Ui
+pl
+pl
+pl
+pl
+sX
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+"}
+(87,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+aj
+aj
+aj
+aj
+aj
+aj
+aj
+kR
+kR
+lm
+lm
+kR
+AQ
+gp
+Th
+ii
+Bh
+Th
+ii
+gp
+gp
+Bh
+Bh
+Bh
+pl
+pl
+pl
+pl
+Ui
+Qp
+bh
+ca
+Ui
+Km
+eD
+uD
+Ui
+Qp
+Br
+ca
+Ui
+pl
+pl
+pl
+pl
+pl
+sX
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(88,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+rI
+Bh
+pl
+pl
+pl
+AE
+nd
+Gw
+Th
+Zw
+fB
+Th
+DC
+Gw
+nd
+AE
+pl
+pl
+pl
+pl
+pl
+pl
+Ui
+Qp
+lP
+ca
+Jn
+mg
+bK
+mg
+Jn
+Qp
+lP
+ca
+Ui
+pl
+pl
+JH
+pl
+pl
+sX
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(89,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+Bh
+pl
+pl
+pl
+AE
+mf
+XL
+iy
+yF
+VG
+Wi
+zN
+XL
+mf
+AE
+pl
+pl
+pl
+JH
+pl
+pl
+Ui
+EI
+lP
+ca
+Jn
+WK
+GF
+WK
+Jn
+Qp
+lP
+xK
+Ui
+pl
+pl
+pl
+pl
+pl
+nc
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(90,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+AE
+XL
+XL
+iy
+ck
+MH
+go
+Wf
+XL
+XL
+AE
+pl
+pl
+pl
+pl
+pl
+pl
+Ui
+Qp
+lP
+ca
+Jn
+cw
+oa
+cw
+Jn
+Qp
+lP
+ca
+Ui
+Cs
+Cs
+Cs
+Cs
+nc
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(91,1,1) = {"
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+Bh
+Bh
+AK
+iy
+XL
+XL
+XL
+Wf
+XL
+Bh
+Bh
+pl
+pl
+Cs
+Cs
+Cs
+Cs
+Ui
+Qp
+lP
+ca
+Ui
+Jn
+Jn
+Jn
+Ui
+Qp
+lP
+ca
+Ui
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(92,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+pl
+pl
+pl
+JH
+pl
+pl
+pl
+pl
+Bh
+vo
+ZC
+Ow
+XL
+Ow
+Vk
+Te
+Bh
+pl
+pl
+pl
+OC
+OC
+OC
+rv
+Ui
+qz
+qz
+qz
+Ui
+Mk
+Mk
+Mk
+Ui
+Ew
+Ew
+Ew
+Ui
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(93,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+TH
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+Bh
+Ef
+Nz
+OA
+CJ
+qS
+mh
+XL
+Bh
+pl
+pl
+pl
+OC
+OC
+OC
+rv
+yd
+OC
+aR
+OC
+yd
+rv
+XP
+rv
+yd
+OC
+aR
+OC
+yd
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(94,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+mO
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+pl
+pl
+pl
+pl
+Bh
+xD
+xD
+xD
+xD
+xD
+xD
+xD
+Bh
+pl
+pl
+pl
+OC
+OC
+OC
+rv
+Mm
+OC
+aR
+OC
+Mm
+rv
+OC
+rv
+Mm
+OC
+aR
+OC
+Mm
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(95,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+OC
+OC
+OC
+rv
+uJ
+OC
+aR
+OC
+uJ
+rv
+OC
+rv
+uJ
+OC
+aR
+OC
+uJ
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(96,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+JH
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+OC
+OC
+OC
+rv
+sY
+bP
+bP
+bP
+sY
+rv
+OC
+rv
+sY
+bP
+bP
+bP
+sY
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(97,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+Cs
+OC
+OC
+OC
+rv
+vP
+OC
+OC
+OC
+vP
+rv
+OC
+rv
+vP
+OC
+OC
+OC
+vP
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(98,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+aR
+aR
+aR
+aR
+aR
+rv
+OC
+rv
+aR
+OC
+OC
+OC
+aR
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(99,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+rv
+aR
+OC
+OC
+OC
+aR
+rv
+OC
+rv
+aR
+aR
+aR
+aR
+aR
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(100,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+yd
+bP
+bP
+bP
+yd
+rv
+OC
+rv
+yd
+bP
+bP
+bP
+yd
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(101,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+Mm
+bP
+sN
+bP
+Mm
+rv
+OC
+rv
+Mm
+bP
+sN
+bP
+Mm
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(102,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+uJ
+bP
+sN
+bP
+uJ
+rv
+OC
+rv
+uJ
+bP
+sN
+bP
+uJ
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(103,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+sY
+bP
+sN
+bP
+sY
+rv
+OC
+rv
+sY
+bP
+sN
+bP
+sY
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(104,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+vP
+bP
+bP
+bP
+vP
+rv
+rv
+rv
+vP
+bP
+bP
+bP
+vP
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(105,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+rv
+OC
+OC
+OC
+OC
+OC
+aR
+rv
+aR
+OC
+OC
+OC
+OC
+OC
+rv
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(106,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+aR
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(107,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(108,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+rv
+OC
+OC
+OC
+OC
+OC
+OC
+OC
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(109,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}
+(110,1,1) = {"
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+LP
+"}

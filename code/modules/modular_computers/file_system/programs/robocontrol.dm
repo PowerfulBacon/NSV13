@@ -21,7 +21,6 @@
 /datum/computer_file/program/robocontrol/ui_data(mob/user)
 	var/list/data = get_header_data()
 	var/turf/current_turf = get_turf(ui_host())
-	var/zlevel = current_turf.z
 	var/list/botlist = list()
 	var/list/mulelist = list()
 

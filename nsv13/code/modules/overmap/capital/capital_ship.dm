@@ -42,7 +42,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 			continue
 		if(x < ship.x || y < ship.y)
 			continue
-		if(x > ship.x + width || y > ship.y + height)
+		if(x > ship.x + ship.width || y > ship.y + ship.height)
 			continue
 		return ship
 	return null
@@ -51,6 +51,8 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	//Check for dumbness
 	if(!map_path)
 		CRASH("Spawn_capital_ship called without a provided map path.")
+
+	map_path = "_maps/capital_ships/[map_path].dmm"
 
 	//Check to make sure spawn position is valid
 	if(!overmap_spawn_location)
@@ -86,9 +88,9 @@ GLOBAL_LIST_EMPTY(capital_ships)
 		CRASH("Capital ship failed to reserve space. Width: [width], Height: [height]")
 
 	//Load the capital ship map
-	var/reservation_x = storageReservation.bottom_left_coords[1] + 1
-	var/reservation_y = storageReservation.bottom_left_coords[2] + 1
-	var/reservation_z = storageReservation.bottom_left_coords[3]
+	var/reservation_x = capital_ship_reservation.bottom_left_coords[1] + 1
+	var/reservation_y = capital_ship_reservation.bottom_left_coords[2] + 1
+	var/reservation_z = capital_ship_reservation.bottom_left_coords[3]
 
 	message_admins("Capital ship map loading...")
 
@@ -112,11 +114,11 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	capital_ship.x = reservation_x
 	capital_ship.y = reservation_y
 	capital_ship.z_level = reservation_z
-	capital_ship.width = storageReservation.top_right_coords[1] - 1 - reservation_x
-	capital_ship.height = storageReservation.top_right_coords[2] - 1 - reservation_y
+	capital_ship.width = capital_ship_reservation.top_right_coords[1] - 1 - reservation_x
+	capital_ship.height = capital_ship_reservation.top_right_coords[2] - 1 - reservation_y
 
 	//Do the thing
 	var/obj/structure/overmap/capital_ship/overmap_ship = new ship_path(overmap_spawn_location)
 	overmap_ship.capital_ship_data = capital_ship
 
-	message_admins("Capital ship created at overmap: [ADMIN_COORDJMP(get_turf(overmap_ship))], reserved: [ADMIN_COORDJMP(locate(reservation_x, reservation_y, reservation_x))].")
+	message_admins("Capital ship created and loaded.")
