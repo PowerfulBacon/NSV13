@@ -36,7 +36,7 @@
 	Cinematic(get_cinematic_type(off_station), world)
 	for(var/mob/living/carbon/human/H in GLOB.carbon_list)
 		var/turf/T = get_turf(H)
-		if(!T || T.z != z)
+		if(!T || T.get_z_level(TRUE) != get_z_level(TRUE))
 			continue
 		H.Stun(10)
 		var/obj/item/clothing/C

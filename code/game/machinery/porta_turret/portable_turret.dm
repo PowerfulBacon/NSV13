@@ -420,7 +420,7 @@
 	//Nsv13 start
 	for(var/A in GLOB.overmap_objects)
 		var/obj/structure/overmap/target = A
-		if((get_dist(A, base) < scan_range) && can_see(base, A, scan_range) && istype(A, /obj/structure/overmap) && target.z == z)
+		if((get_dist(A, base) < scan_range) && can_see(base, A, scan_range) && istype(A, /obj/structure/overmap) && target.get_z_level(TRUE) == get_z_level(TRUE))
 			if(target.pilot && !in_faction(target.pilot)) //If there is a user and they're not in our faction
 				if(assess_perp(target.pilot) >= 4)
 					targets += target

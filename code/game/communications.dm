@@ -169,7 +169,7 @@ GLOBAL_LIST_INIT(reverseradiochannels, list(
 				var/turf/end_point = get_turf(device)
 				if(!end_point)
 					continue
-				if(start_point.z != end_point.z || (range > 0 && get_dist(start_point, end_point) > range))
+				if(start_point.get_z_level(TRUE) != end_point.get_z_level(TRUE) || (range > 0 && get_dist(start_point, end_point) > range))
 					continue
 			device.receive_signal(signal)
 

@@ -163,7 +163,7 @@
 	for(var/obj/structure/overmap/ship in OM.target_painted)
 		if(!ship || !istype(ship))
 			continue
-		if(ship == OM || ship.faction == OM.faction || ship.z != OM.z)
+		if(ship == OM || ship.faction == OM.faction || ship.get_z_level(TRUE) != OM.get_z_level(TRUE))
 			continue
 		var/target_range = get_dist(ship,OM)
 		if(target_range > max_range || target_range <= 0) //Random pulled from the aether
@@ -279,7 +279,7 @@
 	for(var/obj/structure/overmap/ship in GLOB.overmap_objects)
 		if(!ship || !istype(ship))
 			continue
-		if(ship == src || ship == last_target || ship.faction == faction || wrecked || ship.wrecked || ship.z != z) //No friendly fire, don't blow up wrecks that the crew may wish to loot. For AIs, do not target our active target, and risk blowing up our precious torpedoes / missiles.
+		if(ship == src || ship == last_target || ship.faction == faction || wrecked || ship.wrecked || ship.get_z_level(TRUE) != get_z_level(TRUE)) //No friendly fire, don't blow up wrecks that the crew may wish to loot. For AIs, do not target our active target, and risk blowing up our precious torpedoes / missiles.
 			continue
 		var/target_range = get_dist(ship,src)
 		if(target_range > 30 || target_range <= 0) //Random pulled from the aether
@@ -319,7 +319,7 @@
 		for(var/obj/structure/overmap/ship in GLOB.overmap_objects)
 			if(!ship || !istype(ship))
 				continue
-			if(ship == src || ship == last_target || ship.faction == faction || wrecked || ship.wrecked || ship.z != z) //No friendly fire, don't blow up wrecks that the crew may wish to loot. For AIs, do not target our active target, and risk blowing up our precious torpedoes / missiles.
+			if(ship == src || ship == last_target || ship.faction == faction || wrecked || ship.wrecked || ship.get_z_level(TRUE) != get_z_level(TRUE)) //No friendly fire, don't blow up wrecks that the crew may wish to loot. For AIs, do not target our active target, and risk blowing up our precious torpedoes / missiles.
 				continue
 			var/target_range = get_dist(ship,src)
 			if(target_range > 30 || target_range <= 0) //Random pulled from the aether

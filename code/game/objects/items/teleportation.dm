@@ -60,7 +60,7 @@
 					if (!W.renamed)
 						continue
 					var/turf/tr = get_turf(W)
-					if (tr.z == sr.z && tr)
+					if (tr.get_z_level(TRUE) == sr.get_z_level(TRUE) && tr)
 						var/direct = max(abs(tr.x - sr.x), abs(tr.y - sr.y))
 						if (direct < 5)
 							direct = "very strong"
@@ -85,7 +85,7 @@
 								continue
 
 					var/turf/tr = get_turf(W)
-					if (tr.z == sr.z && tr)
+					if (tr.get_z_level(TRUE) == sr.get_z_level(TRUE) && tr)
 						var/direct = max(abs(tr.x - sr.x), abs(tr.y - sr.y))
 						if (direct < 20)
 							if (direct < 5)

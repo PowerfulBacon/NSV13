@@ -269,7 +269,7 @@
 		return 0
 	if(target in possible_targets)
 		var/turf/T = get_turf(src)
-		if(target.z != T.z)
+		if(target.get_z_level(TRUE) != T.get_z_level(TRUE))
 			LoseTarget()
 			return 0
 		var/target_distance = get_dist(targets_from,target)

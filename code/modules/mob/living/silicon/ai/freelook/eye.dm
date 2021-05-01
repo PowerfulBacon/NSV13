@@ -139,7 +139,7 @@
 /atom/proc/move_camera_by_click()
 	if(isAI(usr))
 		var/mob/living/silicon/ai/AI = usr
-		if(AI.eyeobj && (AI.multicam_on || (AI.client.eye == AI.eyeobj)) && (AI.eyeobj.z == z))
+		if(AI.eyeobj && (AI.multicam_on || (AI.client.eye == AI.eyeobj)) && (AI.eyeobj.get_z_level(TRUE) == get_z_level(TRUE)))
 			AI.cameraFollow = null
 			if (isturf(loc) || isturf(src))
 				AI.eyeobj.setLoc(src)

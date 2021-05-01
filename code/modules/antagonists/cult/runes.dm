@@ -660,7 +660,7 @@ structure_check() searches for nearby cultist structures required for the invoca
 /obj/effect/rune/wall/proc/spread_density()
 	for(var/R in GLOB.wall_runes)
 		var/obj/effect/rune/wall/W = R
-		if(W.z == z && get_dist(src, W) <= 2 && !W.density && !W.recharging)
+		if(W.get_z_level(TRUE) == get_z_level(TRUE) && get_dist(src, W) <= 2 && !W.density && !W.recharging)
 			W.density = TRUE
 			W.update_state()
 			W.spread_density()
@@ -985,7 +985,7 @@ structure_check() searches for nearby cultist structures required for the invoca
 	var/zmatch = T.z
 	var/datum/atom_hud/AH = GLOB.huds[DATA_HUD_SECURITY_ADVANCED]
 	for(var/mob/living/M in GLOB.alive_mob_list)
-		if(M.z != zmatch)
+		if(M.get_z_level(TRUE) != T.get_z_level(TRUE))
 			continue
 		if(ishuman(M))
 			if(!iscultist(M))

@@ -316,11 +316,11 @@ Called by add_sensor_profile_penalty if remove_in is used.
 	var/list/blips = list() //2-d array declaration
 	var/ship_count = 0
 	for(var/obj/effect/overmap_anomaly/OA in linked?.current_system?.system_contents)
-		if(OA && istype(OA) && OA.z == linked?.z)
+		if(OA && istype(OA) && OA.get_z_level(TRUE) == linked?.get_z_level(TRUE))
 			blips.Add(list(list("x" = OA.x, "y" = OA.y, "colour" = "#eb9534", "name" = "[(OA.scanned) ? OA.name : "anomaly"]", opacity=showAnomalies*0.01, alignment = "uncharted")))
 	for(var/obj/structure/overmap/OM in GLOB.overmap_objects) //Iterate through overmaps in the world!
 		var/sensor_visible = (OM != linked && OM.faction != linked.faction) ? ((get_dist(linked, OM) > max(sensor_range * 2, OM.sensor_profile)) ? 0 : OM.is_sensor_visible(linked)) : SENSOR_VISIBILITY_FULL //You can always see your own ship, or allied, cloaked ships.
-		if(OM.z == linked.z && sensor_visible >= SENSOR_VISIBILITY_FAINT)
+		if(OM.get_z_level(TRUE) == linked.get_z_level(TRUE) && sensor_visible >= SENSOR_VISIBILITY_FAINT)
 			var/inRange = (get_dist(linked, OM) <= max(sensor_range,OM.sensor_profile)) || OM.faction == linked.faction	//Allies broadcast encrypted IFF so we can see them anywhere.
 			var/thecolour = "#FFFFFF"
 			var/filterType = showEnemies

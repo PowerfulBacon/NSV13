@@ -575,11 +575,14 @@
 /obj/machinery/nuclearbomb/beer/really_actually_explode()
 	disarm()
 
-/proc/KillEveryoneOnZLevel(z)
+//If Seperate capital ships is FALSE then it gibs
+//the entire z-level, including people on different capital ships on the same
+//z level
+/proc/KillEveryoneOnZLevel(z, seperate_capital_ships = TRUE)
 	if(!z)
 		return
 	for(var/mob/M in GLOB.mob_list)
-		if(M.stat != DEAD && M.z == z)
+		if(M.stat != DEAD && M.get_z_level(seperate_capital_ships) == z)
 			M.gib()
 
 /*

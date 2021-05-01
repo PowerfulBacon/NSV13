@@ -188,7 +188,7 @@
 			n++
 			circuit["index"] = n
 			circuit["name"] = O.name
-			circuit["coords"] = "[O.x], [O.y], [O.z]"
+			circuit["coords"] = "[O.x], [O.y], [O.can_receive(]"
 			circuits += list(circuit)
 	data["circuits"] = circuits
 	return data

@@ -390,7 +390,7 @@
 	. = ..()
 	var/obj/structure/overmap/OM = get_overmap()
 	for(var/mob/M in OM.mobs_in_ship)
-		if(OM.z == z)
+		if(OM.get_z_level(TRUE) == get_z_level(TRUE))
 			shake_camera(M, 1, 1)
 
 /obj/machinery/ship_weapon/deck_turret/north

@@ -139,7 +139,7 @@
 	if(stat & NOPOWER)
 		return FALSE
 	var/turf/zone = get_turf(src)
-	if(zone.z != epicenter.z)
+	if(zone.get_z_level(TRUE) != epicenter.get_z_level(TRUE))
 		return FALSE
 
 	if(next_announce > world.time)

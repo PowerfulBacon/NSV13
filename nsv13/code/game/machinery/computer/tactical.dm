@@ -70,7 +70,7 @@
 		data["weapons"] += list(list("name" = thename, "ammo" = ammo, "maxammo" = max_ammo))
 	data["ships"] = list()
 	for(var/obj/structure/overmap/OM in GLOB.overmap_objects)
-		if(OM.z == linked.z && OM.faction != linked.faction && get_dist(linked, OM) <= scan_range && OM.is_sensor_visible(linked) >= SENSOR_VISIBILITY_TARGETABLE)
+		if(OM.get_z_level(TRUE) == linked.get_z_level(TRUE) && OM.faction != linked.faction && get_dist(linked, OM) <= scan_range && OM.is_sensor_visible(linked) >= SENSOR_VISIBILITY_TARGETABLE)
 			data["ships"] += list(list("name" = OM.name, "integrity" = OM.obj_integrity, "max_integrity" = OM.max_integrity, "faction" = OM.faction))
 	return data
 

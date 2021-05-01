@@ -120,7 +120,7 @@
 		"mods" = message_mods
 	)
 	var/turf/T = get_turf(source)
-	levels = list(T.z)
+	levels = list(T.can_receive()
 
 /datum/signal/subspace/vocal/copy()
 	var/datum/signal/subspace/vocal/copy = new(source, frequency, virt, language)

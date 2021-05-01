@@ -65,7 +65,7 @@
 
 /obj/machinery/computer/sat_control/proc/toggle(id)
 	for(var/obj/machinery/satellite/S in GLOB.machines)
-		if(S.id == id && S.z == z)
+		if(S.id == id && S.get_z_level(TRUE) == get_z_level(TRUE))
 			S.toggle()
 
 /obj/machinery/computer/sat_control/ui_data()
@@ -149,7 +149,7 @@
 	if(!active)
 		return
 	for(var/obj/effect/meteor/M in GLOB.meteor_list)
-		if(M.z != z)
+		if(M.get_z_level(TRUE) != get_z_level(TRUE))
 			continue
 		if(get_dist(M,src) > kill_range)
 			continue
