@@ -1,0 +1,3970 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"an" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"as" = (
+/turf/open/floor/monotile/steel,
+/area/space)
+"aB" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"by" = (
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"ci" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"dp" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"dz" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"dR" = (
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/airlock/ship/engineering/glass{
+	dir = 4
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"el" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"ex" = (
+/obj/structure/particle_accelerator/particle_emitter/right{
+	dir = 8;
+	icon_state = "emitter_right"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"ey" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/computer/crew/syndie{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"eA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"eB" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/south,
+/obj/machinery/rnd/production/protolathe/department/engineering,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"eT" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/floor/plating,
+/area/engine/engine_room)
+"fd" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/machinery/rnd/production/circuit_imprinter,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"fv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"fC" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/ship/engineering/glass{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"fQ" = (
+/obj/structure/shuttle/engine/huge{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
+"gM" = (
+/obj/structure/particle_accelerator/fuel_chamber{
+	dir = 8;
+	icon_state = "fuel_chamber"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"gQ" = (
+/obj/structure/chair/comfy/shuttle{
+	color = "#696969";
+	dir = 4;
+	name = "bridge chair"
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"gV" = (
+/obj/effect/turf_decal/pool,
+/obj/machinery/suit_storage_unit/engine,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"gZ" = (
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"ha" = (
+/obj/structure/particle_accelerator/end_cap{
+	dir = 8;
+	icon_state = "end_cap"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"hn" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"hw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/landmark/zebra_interlock_point,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"hJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/airlock/ship/command/glass{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"hR" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 1
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"iz" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/carpet/purple,
+/area/space)
+"iC" = (
+/obj/machinery/vending/engivend,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"iG" = (
+/obj/structure/shuttle/engine/large{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
+"iS" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/monotile/steel,
+/area/space)
+"jm" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/solar_control{
+	dir = 1
+	},
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"jo" = (
+/turf/open/floor/monotile/dark,
+/area/space)
+"jz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"kp" = (
+/obj/effect/turf_decal/pool{
+	dir = 1
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"kz" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"lb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"lq" = (
+/obj/structure/closet/secure_closet/engineering_personal,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/head/radiation,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"lD" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/propulsion_system,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/obj/item/ship_weapon/parts/missile/warhead,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"lF" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engine_room)
+"lR" = (
+/obj/machinery/computer/ship/reactor_control_computer{
+	dir = 1;
+	reactor_id = "atlas_69420"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"mb" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/carpet/orange,
+/area/space)
+"mk" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"mr" = (
+/turf/open/floor/plasteel/stairs/right{
+	dir = 8
+	},
+/area/space)
+"mu" = (
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"mE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/munitions_trolley,
+/turf/open/floor/plating,
+/area/space)
+"mX" = (
+/obj/structure/mirror{
+	pixel_y = 24
+	},
+/turf/open/floor/carpet/orange,
+/area/space)
+"mY" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/camera/autoname{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 9
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"mZ" = (
+/obj/machinery/computer/ship/munitions_computer{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"ng" = (
+/obj/machinery/vending/tool,
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"nk" = (
+/obj/machinery/computer/ship/munitions_computer{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"nX" = (
+/turf/open/floor/carpet/purple,
+/area/space)
+"og" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/machinery/door/airlock/ship/engineering/glass{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"oi" = (
+/obj/structure/particle_accelerator/particle_emitter/center{
+	dir = 8;
+	icon_state = "emitter_center"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"oD" = (
+/obj/structure/particle_accelerator/particle_emitter/left{
+	dir = 8;
+	icon_state = "emitter_left"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"oL" = (
+/obj/effect/turf_decal/pool{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/ship/half/yellow,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"oX" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/orange,
+/area/space)
+"pu" = (
+/turf/open/floor/plasteel/stairs/medium{
+	dir = 8
+	},
+/area/space)
+"pB" = (
+/obj/structure/closet/secure_closet/engineering_personal,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/head/radiation,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"ql" = (
+/obj/item/control_rod,
+/turf/open/indestructible/sound/pool/spentfuel/wall,
+/area/engine/engine_room)
+"qv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"ra" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"rh" = (
+/obj/item/control_rod,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/indestructible/sound/pool/spentfuel/wall,
+/area/engine/engine_room)
+"rB" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/lights/mixed,
+/obj/item/stack/cable_coil/red,
+/obj/item/rcl/pre_loaded,
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"rT" = (
+/obj/effect/turf_decal/pool,
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/cable_coil,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"rZ" = (
+/obj/machinery/door/airlock/ship,
+/turf/open/floor/carpet/orange,
+/area/space)
+"sa" = (
+/obj/effect/turf_decal/tile/ship/half/yellow,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"sw" = (
+/obj/item/bedsheet/dorms,
+/obj/structure/bed,
+/turf/open/floor/carpet/purple,
+/area/space)
+"sy" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/monotile/dark,
+/area/space)
+"sL" = (
+/obj/machinery/computer/ship/reactor_control_computer{
+	dir = 1;
+	reactor_id = "atlas_69420"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"tg" = (
+/obj/machinery/computer/ship/dradis{
+	dir = 8
+	},
+/turf/open/floor/monotile/steel,
+/area/space)
+"th" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/closed/wall/ship,
+/area/space)
+"tD" = (
+/obj/structure/chair/comfy/shuttle{
+	color = "#696969";
+	dir = 4;
+	name = "bridge chair"
+	},
+/turf/open/floor/monotile/steel,
+/area/space)
+"ur" = (
+/obj/structure/tank_dispenser,
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"uF" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/computer/ship/navigation{
+	dir = 8;
+	icon_state = "computer"
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"uI" = (
+/obj/machinery/computer/ship/viewscreen,
+/turf/open/floor/monotile/steel,
+/area/space)
+"uY" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"vx" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"vC" = (
+/obj/structure/munitions_trolley,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"vR" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/ship_weapon/pdc_mount/north,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/monotile/dark,
+/area/space)
+"wx" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/grille/wall,
+/turf/open/space/basic,
+/area/engine/engine_room)
+"wD" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engine_room)
+"wI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"xx" = (
+/obj/structure/table/reinforced,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/guidance_system,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/ship_weapon/parts/missile/iff_card,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"xT" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/machinery/computer/rdconsole/production{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"ya" = (
+/turf/closed/wall/r_wall/ship,
+/area/hallway/nsv/deck2/primary)
+"yn" = (
+/turf/open/space/basic,
+/area/space)
+"yv" = (
+/obj/item/bedsheet/dorms,
+/obj/structure/bed,
+/turf/open/floor/carpet/orange,
+/area/space)
+"yy" = (
+/turf/closed/wall/r_wall/ship,
+/area/space)
+"yE" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"yP" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/space)
+"zl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/landmark/zebra_interlock_point,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"zI" = (
+/obj/structure/sign/directions/science{
+	dir = 4
+	},
+/obj/structure/sign/directions/supply{
+	dir = 4;
+	pixel_y = -6
+	},
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"Ac" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Ah" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"AM" = (
+/obj/structure/closet/crate{
+	name = "railgun projectile crate"
+	},
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/obj/item/ship_weapon/ammunition/railgun_ammo,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Bw" = (
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"BC" = (
+/obj/effect/turf_decal/pool/corner,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"BF" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"BR" = (
+/obj/machinery/computer/ship/tactical{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/monotile/steel,
+/area/space)
+"BX" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"Ce" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/components/binary/stormdrive_reactor{
+	reactor_id = "atlas_69420"
+	},
+/obj/effect/landmark/nuclear_waste_spawner/strong,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"CD" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"CE" = (
+/obj/machinery/door/airlock/ship/public/glass,
+/turf/open/floor/monotile/dark,
+/area/space)
+"CJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"CT" = (
+/turf/closed/wall/r_wall/ship,
+/area/maintenance/nsv/deck2/starboard)
+"CV" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/monotile/dark,
+/area/space)
+"Dm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"Do" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/reagent_dispensers/foamtank/hull_repair_juice,
+/obj/item/extinguisher/advanced/hull_repair_juice,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Dt" = (
+/obj/effect/turf_decal/pool/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Du" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/monotile/dark,
+/area/space)
+"DD" = (
+/obj/machinery/ship_weapon/railgun,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"DI" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Eb" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"Em" = (
+/obj/machinery/computer/ship/helm{
+	dir = 8;
+	req_access = null;
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/monotile/steel,
+/area/space)
+"Ep" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"EM" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/engine/engine_room)
+"Ff" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"Fp" = (
+/obj/machinery/computer/ship/viewscreen{
+	pixel_y = -30
+	},
+/turf/open/floor/monotile/steel,
+/area/space)
+"Ft" = (
+/obj/structure/closet/crate/engineering{
+	name = "pdc ammo crate"
+	},
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/obj/item/ammo_box/magazine/pdc,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"GV" = (
+/obj/effect/turf_decal/pool{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Hp" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Hy" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/monotile/dark,
+/area/space)
+"Ie" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Io" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engine/engine_room)
+"IT" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/purple,
+/area/space)
+"IV" = (
+/obj/effect/spawner/structure/window/reinforced/ship,
+/turf/open/floor/plating,
+/area/space)
+"IX" = (
+/obj/item/ship_weapon/ammunition/missile,
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 4
+	},
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 8
+	},
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 10
+	},
+/turf/open/floor/plating,
+/area/space)
+"Jz" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"JH" = (
+/obj/structure/mirror{
+	pixel_y = 24
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
+"JW" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"JX" = (
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Ke" = (
+/obj/structure/fluff/bleepypanel{
+	pixel_y = 32
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"Km" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 5
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Kq" = (
+/obj/machinery/door/airlock/ship,
+/turf/open/floor/monotile/dark,
+/area/space)
+"KA" = (
+/obj/structure/sign/directions/command{
+	dir = 1
+	},
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"KE" = (
+/obj/item/ship_weapon/ammunition/torpedo/torpedo_casing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"KI" = (
+/obj/machinery/particle_accelerator/control_box,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"Ld" = (
+/turf/open/floor/carpet/orange,
+/area/space)
+"Le" = (
+/obj/item/control_rod,
+/turf/open/indestructible/sound/pool/spentfuel,
+/area/engine/engine_room)
+"LZ" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Mu" = (
+/obj/structure/particle_accelerator/power_box{
+	dir = 8;
+	icon_state = "power_box"
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"MI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"ON" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"OQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/ship_weapon/ammunition/missile,
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 4
+	},
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 8
+	},
+/obj/item/ship_weapon/ammunition/missile{
+	pixel_y = 10
+	},
+/turf/open/floor/plating,
+/area/space)
+"OV" = (
+/obj/machinery/airalarm/directional/east,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"PE" = (
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"PV" = (
+/obj/effect/turf_decal/tile/ship/half/yellow{
+	dir = 1
+	},
+/obj/machinery/power/apc/auto_name/south{
+	pixel_y = -24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Qa" = (
+/obj/structure/closet/radiation,
+/obj/item/geiger_counter,
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Qc" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/reagent_dispensers/foamtank/hull_repair_juice,
+/obj/item/extinguisher/advanced/hull_repair_juice,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Qe" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Ro" = (
+/obj/item/ship_weapon/ammunition/torpedo,
+/obj/item/ship_weapon/ammunition/torpedo{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/space)
+"Rr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"RU" = (
+/obj/machinery/door/airlock/ship,
+/turf/open/floor/carpet/purple,
+/area/space)
+"Sb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/landmark/zebra_interlock_point,
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"Sm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+"Sn" = (
+/obj/effect/turf_decal/tile/ship/half/yellow,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 10
+	},
+/turf/open/floor/monotile/dark,
+/area/engine/engine_room)
+"Ss" = (
+/obj/machinery/ship_weapon/torpedo_launcher/east,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"SK" = (
+/turf/closed/wall/ship,
+/area/space)
+"Te" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
+"Tv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"TE" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engine/engine_room)
+"Uw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"UE" = (
+/obj/effect/landmark/event_spawn,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"UK" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"UO" = (
+/obj/machinery/computer/ship/ftl_computer,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"UR" = (
+/turf/open/floor/plasteel/stairs/left{
+	dir = 8
+	},
+/area/space)
+"Vm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 5
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"WE" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/engine/engine_room)
+"WF" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/space)
+"Xb" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/monotile/dark,
+/area/space)
+"Xs" = (
+/obj/structure/sign/ship/deck/two{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"XB" = (
+/obj/machinery/ship_weapon/pdc_mount/north,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/monotile/dark,
+/area/space)
+"Yi" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/closed/wall/ship,
+/area/space)
+"Yl" = (
+/obj/effect/turf_decal/pool{
+	dir = 1
+	},
+/obj/machinery/light_switch/east,
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"Yv" = (
+/obj/structure/sign/ship/deck/two,
+/turf/closed/wall/r_wall/ship,
+/area/engine/engine_room)
+"YM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 1
+	},
+/turf/open/floor/monotile/steel,
+/area/engine/engine_room)
+"YV" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/monotile/dark,
+/area/space)
+"Zb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/engine,
+/area/engine/engine_room)
+
+(1,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(2,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(3,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(4,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(5,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(6,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(7,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(8,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(9,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+fQ
+yn
+yn
+yn
+yn
+yn
+yn
+fQ
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(10,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+iG
+yn
+iG
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(11,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+Te
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+Te
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(12,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+fQ
+Te
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+yy
+yy
+yy
+Te
+yn
+yn
+fQ
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(13,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+gZ
+Bw
+BX
+UO
+gZ
+wx
+EM
+wx
+gZ
+gZ
+gZ
+gZ
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(14,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+BF
+Bw
+WE
+jm
+gZ
+gZ
+Uw
+gZ
+gZ
+dz
+Qe
+pB
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(15,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+yy
+rB
+mk
+Ff
+sL
+eT
+Zb
+Dm
+Rr
+eT
+LZ
+kz
+lq
+yy
+yy
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(16,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+jo
+jo
+yy
+ur
+CD
+Vm
+ci
+eT
+Sm
+Ce
+hn
+eT
+LZ
+kz
+Qa
+yy
+IX
+IX
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(17,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+yy
+gZ
+TE
+og
+lF
+gZ
+Sb
+zl
+hw
+gZ
+wD
+fC
+gZ
+yy
+OQ
+OQ
+mE
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(18,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+gZ
+iC
+sa
+JW
+UK
+UK
+Ah
+Hp
+Qc
+Do
+uY
+gZ
+xx
+an
+an
+vC
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(19,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+gZ
+ng
+Sn
+ra
+ra
+ra
+JX
+Ep
+Km
+wI
+PV
+gZ
+lD
+an
+an
+an
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(20,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+yy
+BC
+oL
+GV
+Dt
+oD
+oi
+ex
+eA
+lb
+yE
+CT
+Ie
+an
+an
+an
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(21,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+gZ
+rT
+ql
+Le
+kp
+lR
+Mu
+CJ
+UE
+hR
+fd
+gZ
+Ro
+jz
+jz
+KE
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(22,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+ya
+gV
+ql
+Le
+kp
+KI
+gM
+CJ
+aB
+YM
+xT
+gZ
+yP
+jo
+jo
+mu
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(23,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+ya
+gZ
+rh
+Le
+kp
+MI
+ha
+Jz
+Tv
+PE
+eB
+gZ
+yP
+jo
+jo
+mu
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(24,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+jo
+Yv
+ql
+Le
+Yl
+PE
+by
+Ac
+mY
+OV
+DI
+KA
+yP
+jo
+jo
+mu
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(25,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+jo
+gZ
+gZ
+Xs
+gZ
+TE
+dR
+Io
+gZ
+Xs
+gZ
+zI
+dp
+Kq
+Kq
+dp
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(26,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+yy
+jo
+jo
+yy
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(27,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+oX
+mb
+yy
+jo
+jo
+yy
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(28,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+mX
+Ld
+rZ
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+CE
+jo
+Hy
+mZ
+sy
+mZ
+Eb
+jo
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(29,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yv
+Ld
+yy
+jo
+jo
+yy
+jo
+jo
+yy
+jo
+jo
+jo
+CE
+jo
+YV
+Ss
+vx
+Ss
+fv
+jo
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(30,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+yy
+jo
+jo
+yy
+yy
+yy
+yy
+jo
+jo
+jo
+yy
+jo
+YV
+an
+vx
+an
+fv
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(31,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+IT
+iz
+yy
+jo
+jo
+jo
+jo
+jo
+CE
+jo
+jo
+jo
+yy
+jo
+YV
+an
+vx
+an
+fv
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(32,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+JH
+nX
+RU
+jo
+jo
+jo
+jo
+jo
+CE
+jo
+jo
+jo
+yy
+CE
+th
+SK
+SK
+SK
+Yi
+SK
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(33,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+sw
+nX
+yy
+jo
+jo
+yy
+yy
+yy
+yy
+jo
+jo
+jo
+yy
+XB
+jo
+AM
+Ft
+AM
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(34,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+yy
+jo
+jo
+yy
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+XB
+jo
+jo
+jo
+jo
+jo
+jo
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(35,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+vR
+jo
+Eb
+jo
+jo
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(36,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+jo
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+ON
+nk
+el
+jo
+jo
+jo
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(37,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+an
+DD
+an
+fv
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(38,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+an
+an
+an
+fv
+jo
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(39,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+an
+an
+an
+fv
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(40,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+IV
+jo
+jo
+jo
+jo
+jo
+yy
+jo
+jo
+jo
+yy
+an
+an
+an
+fv
+jo
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(41,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+IV
+jo
+jo
+yy
+yy
+yy
+yy
+yy
+hJ
+yy
+yy
+yy
+yy
+yy
+WF
+jo
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(42,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+jo
+jo
+yy
+Ke
+qv
+jo
+jo
+jo
+jo
+jo
+qv
+jo
+yy
+jo
+jo
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(43,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+yy
+Ke
+gQ
+jo
+jo
+jo
+jo
+jo
+gQ
+jo
+yy
+yy
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(44,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+Du
+uF
+CV
+mr
+pu
+UR
+Xb
+ey
+Du
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(45,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+uI
+as
+as
+as
+as
+as
+as
+as
+Fp
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(46,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+IV
+iS
+as
+as
+as
+as
+as
+as
+as
+iS
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(47,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+IV
+iS
+as
+as
+as
+tD
+as
+as
+as
+iS
+IV
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(48,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+yy
+yy
+iS
+BR
+tg
+Em
+iS
+yy
+yy
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(49,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yy
+IV
+IV
+IV
+IV
+IV
+yy
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}
+(50,1,1) = {"
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+yn
+"}

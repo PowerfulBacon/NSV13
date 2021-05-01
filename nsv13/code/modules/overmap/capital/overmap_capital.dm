@@ -6,26 +6,60 @@
 	icon_state = "default"
 	faction = "nanotrasen"
 	var/datum/capital_ship_data/capital_ship_data
+	role = INSTANCED_MIDROUND_SHIP
 
 /obj/structure/overmap/capital_ship/Destroy()
 	QDEL_NULL(capital_ship_data)
 	. = ..()
 
-/obj/structure/overmap/capital_ship/syndicate/pvp //Syndie PVP ship.
-	name = "SSV Nebuchadnezzar"
-	icon = 'nsv13/icons/overmap/syndicate/tuningfork.dmi'
-	icon_state = "tuningfork"
-	desc = "A highly modular cruiser setup which, despite its size, is capable of delivering devastating firepower."
-	mass = MASS_MEDIUM
-	sprite_size = 96
-	damage_states = FALSE
-	obj_integrity = 1000
-	max_integrity = 1000
-	integrity_failure = 1000
-	ai_controlled = FALSE
-	//collision_positions = list(new /datum/vector2d(-27,62), new /datum/vector2d(-30,52), new /datum/vector2d(-30,11), new /datum/vector2d(-32,-16), new /datum/vector2d(-30,-45), new /datum/vector2d(-24,-58), new /datum/vector2d(19,-60), new /datum/vector2d(33,-49), new /datum/vector2d(35,24), new /datum/vector2d(33,60))
+//SYNDICATE
+
+/obj/structure/overmap/capital_ship/syndicate
+	name = "syndicate ship"
+	desc = "A syndicate owned space faring vessel, it's painted with an ominous black and red motif."
+	icon = 'nsv13/icons/overmap/default.dmi'
+	icon_state = "default"
+	faction = "syndicate"
+
+/obj/structure/overmap/capital_ship/syndicate/hulk
+	name = "SSV Hulk"
+	icon = 'nsv13/icons/overmap/syndicate/syn_patrol_cruiser.dmi'
+	icon_state = "patrol_cruiser"
 	bound_width = 128
-	bound_height = 128
-	role = PVP_SHIP
-	starting_system = "The Badlands" //Relatively safe start, fleets won't hotdrop you here.
-	armor = list("overmap_light" = 70, "overmap_heavy" = 20)
+	bound_height = 256
+	mass = MASS_LARGE
+	sprite_size = 48
+	pixel_z = -96
+	pixel_w = -96
+	obj_integrity = 750
+	max_integrity = 750 //Max health
+	integrity_failure = 750
+	armor = list("overmap_light" = 70, "overmap_heavy" = 30)
+
+/obj/structure/overmap/capital_ship/syndicate/mako_carrier
+	name = "Sturgeon class escort carrier"
+	icon_state = "mako_carrier"
+	icon = 'nsv13/icons/overmap/new/syndicate/frigate.dmi'
+	mass = MASS_SMALL
+	bound_height = 64
+	bound_width = 64
+	sprite_size = 48
+	damage_states = FALSE
+	obj_integrity = 500
+	max_integrity = 500
+	integrity_failure = 500
+	armor = list("overmap_light" = 50, "overmap_heavy" = 15)
+
+/obj/structure/overmap/capital_ship/syndicate/mako_flak
+	name = "Sturgeon class escort carrier"
+	icon = 'nsv13/icons/overmap/new/syndicate/frigate.dmi'
+	icon_state = "mako_flak"
+	mass = MASS_SMALL
+	bound_height = 64
+	bound_width = 64
+	sprite_size = 48
+	damage_states = FALSE
+	obj_integrity = 500
+	max_integrity = 500
+	integrity_failure = 500
+	armor = list("overmap_light" = 50, "overmap_heavy" = 15)

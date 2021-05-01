@@ -3380,6 +3380,7 @@
 #include "nsv13\code\modules\overmap\armour\nano_well.dm"
 #include "nsv13\code\modules\overmap\boarding\boarding.dm"
 #include "nsv13\code\modules\overmap\capital\capital_ship.dm"
+#include "nsv13\code\modules\overmap\capital\capital_ship_areas.dm"
 #include "nsv13\code\modules\overmap\capital\overmap_capital.dm"
 #include "nsv13\code\modules\overmap\fighters\construction.dm"
 #include "nsv13\code\modules\overmap\fighters\control_console.dm"
