@@ -20,6 +20,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	var/z_level
 	var/virtual_z_level
 	var/obj/structure/overmap/capital_ship/linked_ship
+	var/datum/turf_reservation/capital_ship_reservation
 
 /datum/capital_ship_data/New()
 	. = ..()
@@ -29,6 +30,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 
 /datum/capital_ship_data/Destroy(force, ...)
 	GLOB.capital_ships -= src
+	capital_ship_reservation.Release()
 	. = ..()
 
 /datum/capital_ship_data/proc/return_turfs()
@@ -118,7 +120,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	for(var/turf/reserved_turf in block(locate(capital_ship_reservation.bottom_left_coords[1], capital_ship_reservation.bottom_left_coords[2], reservation_z), locate(capital_ship_reservation.top_right_coords[1], capital_ship_reservation.top_right_coords[2], reservation_z)))
 		//Its a border turf.
 		if(reserved_turf.x == capital_ship_reservation.bottom_left_coords[1] || reserved_turf.x == capital_ship_reservation.top_right_coords[1] || reserved_turf.y == capital_ship_reservation.bottom_left_coords[2] || reserved_turf.y == capital_ship_reservation.top_right_coords[2])
-			reserved_turf.ChangeTurf(/turf/closed/indestructible/cordon)
+			reserved_turf.ChangeTurf(/turf/open/indestructible/capital_ship_edge)
 
 	message_admins("Capital ship map loading...")
 
@@ -129,12 +131,17 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	capital_ship.z_level = reservation_z
 	capital_ship.width = capital_ship_reservation.top_right_coords[1] - 1 - reservation_x
 	capital_ship.height = capital_ship_reservation.top_right_coords[2] - 1 - reservation_y
+	capital_ship.capital_ship_reservation = capital_ship_reservation
 
 	//Do the thing
 	var/obj/structure/overmap/capital_ship/overmap_ship = new ship_path(overmap_spawn_location)
 	overmap_ship.capital_ship_data = capital_ship
 
 	capital_ship.linked_ship = overmap_ship
+
+	//Generate docking_points
+	overmap_ship.docking_points = list(locate(capital_ship.x + capital_ship.width / 2, capital_ship.y + capital_ship.height - 5, reservation_z))
+	overmap_ship.occupying_levels = list(reservation_z)
 
 	//Load the map
 	if(!parsed_map.load(reservation_x, reservation_y, reservation_z))
@@ -154,3 +161,30 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	log_mapping("Capital ship [map_path] loaded successfully.")
 
 	message_admins("Capital ship created and loaded.")
+
+/turf/open/indestructible/capital_ship_edge
+	icon = 'icons/turf/space.dmi'
+	icon_state = "0"
+	name = "\proper space"
+	intact = 0
+
+	temperature = TCMB
+	thermal_conductivity = OPEN_HEAT_TRANSFER_COEFFICIENT
+	heat_capacity = 700000
+
+	plane = PLANE_SPACE
+	layer = SPACE_LAYER
+	light_power = 0.25
+	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
+	bullet_bounce_sound = null
+
+	vis_flags = VIS_INHERIT_ID
+
+/turf/open/indestructible/capital_ship_edge/Enter(atom/movable/mover, atom/oldloc)
+	if(istype(mover, /obj/structure/overmap/fighter))
+		var/obj/structure/overmap/fighter/fighter = mover
+		//Send it
+		fighter.check_overmap_elegibility(src, src, fighter.dir)
+	if(!..())
+		return FALSE
+	return FALSE
