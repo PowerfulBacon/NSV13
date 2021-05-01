@@ -1,6 +1,3 @@
-/datum/space_level
-	var/obj/structure/overmap/linked_overmap = null
-
 // IMPORTANT PROC FOR CAPITAL SHIPS
 // WILL RETURN A VIRTUAL Z-LEVEL FOR CAPITAL SHIPS
 // SO YOU CAN CHECK TO MAKE SURE PEOPLE ARE ON THE SAME SHIP
@@ -44,18 +41,6 @@
 		return TRUE
 	else
 		return FALSE
-
-/mob //I don't like overriding this. This should be more performant than searching a long list of mobs every move though
-	var/obj/structure/overmap/last_overmap = null
-
-
-/mob/dead/observer/Move(NewLoc, direct)
-	. = ..()
-	find_overmap()
-
-/mob/Move(atom/newloc, direct=0)
-	. = ..()
-	find_overmap()
 
 /**
 Helper method to get what ship an observer belongs to for stuff like parallax.
