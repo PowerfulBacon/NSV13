@@ -109,16 +109,16 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	if(!capital_ship_reservation)
 		CRASH("Capital ship failed to reserve space. Width: [width], Height: [height]")
 
+	//Load the capital ship map
+	var/reservation_x = capital_ship_reservation.bottom_left_coords[1] + 1
+	var/reservation_y = capital_ship_reservation.bottom_left_coords[2] + 1
+	var/reservation_z = capital_ship_reservation.bottom_left_coords[3]
+
 	//Lets spawn something around the edge so people can leave the ship.
 	for(var/turf/reserved_turf in block(locate(capital_ship_reservation.bottom_left_coords[1], capital_ship_reservation.bottom_left_coords[2], reservation_z), locate(capital_ship_reservation.top_right_coords[1], capital_ship_reservation.top_right_coords[2], reservation_z)))
 		//Its a border turf.
 		if(reserved_turf.x == capital_ship_reservation.bottom_left_coords[1] || reserved_turf.x == capital_ship_reservation.top_right_coords[1] || reserved_turf.y == capital_ship_reservation.bottom_left_coords[2] || reserved_turf.y == capital_ship_reservation.top_right_coords[2])
 			reserved_turf.ChangeTurf(/turf/closed/indestructible/cordon)
-
-	//Load the capital ship map
-	var/reservation_x = capital_ship_reservation.bottom_left_coords[1] + 1
-	var/reservation_y = capital_ship_reservation.bottom_left_coords[2] + 1
-	var/reservation_z = capital_ship_reservation.bottom_left_coords[3]
 
 	message_admins("Capital ship map loading...")
 
