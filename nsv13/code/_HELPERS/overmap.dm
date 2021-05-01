@@ -12,7 +12,7 @@
 /atom/proc/get_z_level(virtual_z_levels = FALSE)
 	if(!virtual_z_levels)
 		return z
-	if(SSmapping.level_has_any_trait(z, list(ZTRAIT_OVERMAP)))
+	if(SSmapping.level_has_any_trait(z, list(ZTRAIT_RESERVED)))
 		var/datum/capital_ship_data/found_ship = get_capital_ship()
 		if(found_ship)
 			return found_ship.virtual_z_level
@@ -27,7 +27,14 @@
 		return FALSE
 	for(var/datum/space_level/SL in SSmapping.z_list)
 		if(SL.z_value == z)
-			return SL.linked_overmap
+			if(ZTRAIT_RESERVED in SL.traits)
+				var/datum/capital_ship_data/found_ship = get_capital_ship()
+				if(found_ship)
+					return found_ship.linked_ship
+				else
+					return FALSE
+			else
+				return SL.linked_overmap
 	return FALSE
 
 /proc/shares_overmap(atom/source, atom/target)

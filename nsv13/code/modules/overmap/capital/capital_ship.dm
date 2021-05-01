@@ -19,6 +19,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	var/height
 	var/z_level
 	var/virtual_z_level
+	var/obj/structure/overmap/capital_ship/linked_ship
 
 /datum/capital_ship_data/New()
 	. = ..()
@@ -47,7 +48,28 @@ GLOBAL_LIST_EMPTY(capital_ships)
 		return ship
 	return null
 
-/proc/spawn_capital_ship(map_path, ship_path, turf/overmap_spawn_location)
+/client/proc/instance_capital_ship() //Creates a verb for admins to open up the ui
+	set name = "Instance Capital Ship"
+	set desc = "Load a capital ship midround."
+	set category = "Adminbus"
+
+	if(IsAdminAdvancedProcCall())
+		return FALSE
+
+	var/list/choices = flist("_maps/capital_ships/")
+	var/ship_file = input(usr, "What ship would you like to load?","Ship Instancing", null) as null|anything in choices
+	if(!ship_file)
+		return
+	var/ship_datum = input(usr, "What overmap type would you like to give it?", "Ship Instancing", null) as null|anything in typesof(/obj/structure/overmap/capital_ship)
+	if(!ship_datum)
+		return
+	var/turf/T = get_turf(mob)
+	spawn_capital_ship(ship_file, ship_datum, SSmapping.level_has_any_trait(T.z, list(ZTRAIT_RESERVED)))
+
+	message_admins("[key_name_admin(usr)] spawned a capital ship.")
+	log_admin("[key_name(usr)] spawned a capital ship.")
+
+/proc/spawn_capital_ship(map_path, ship_path = /obj/structure/overmap/capital_ship, turf/overmap_spawn_location)
 	//Check for dumbness
 	if(!map_path)
 		CRASH("Spawn_capital_ship called without a provided map path.")
@@ -120,5 +142,7 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	//Do the thing
 	var/obj/structure/overmap/capital_ship/overmap_ship = new ship_path(overmap_spawn_location)
 	overmap_ship.capital_ship_data = capital_ship
+
+	capital_ship.linked_ship = overmap_ship
 
 	message_admins("Capital ship created and loaded.")
