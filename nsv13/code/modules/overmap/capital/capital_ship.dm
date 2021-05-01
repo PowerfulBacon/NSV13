@@ -9,6 +9,7 @@
 
 GLOBAL_LIST_EMPTY(cached_capital_ship_maps)
 GLOBAL_LIST_EMPTY(capital_ships)
+GLOBAL_VAR_INIT(loading_capital_ship, FALSE)
 
 /datum/capital_ship_data
 	//DOES NOT INCLUDE THE 1 TURF BORDER
@@ -72,6 +73,9 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	log_admin("[key_name(usr)] spawned a capital ship.")
 
 /proc/spawn_capital_ship(map_path, ship_path = /obj/structure/overmap/capital_ship, turf/overmap_spawn_location)
+	if(GLOB.loading_capital_ship)
+		return
+
 	//Check for dumbness
 	if(!map_path)
 		CRASH("Spawn_capital_ship called without a provided map path.")
@@ -144,12 +148,17 @@ GLOBAL_LIST_EMPTY(capital_ships)
 	overmap_ship.occupying_levels = list(reservation_z)
 
 	//Load the map
+	GLOB.loading_capital_ship = TRUE
+	SSair.pause()
 	if(!parsed_map.load(reservation_x, reservation_y, reservation_z))
 		//Goodbye my lover
 		capital_ship_reservation.Release()
 		//oh shit get it out of here
 		qdel(overmap_ship)
+		GLOB.loading_capital_ship = FALSE
 		CRASH("Capital ship map failed to place.")
+	SSair.enqueue()
+	GLOB.loading_capital_ship = FALSE
 
 	//Repopulate areas
 	repopulate_sorted_areas()
