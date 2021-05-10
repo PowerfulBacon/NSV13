@@ -5,7 +5,7 @@
 
 /datum/map_config //NSV EDITED START
 	// Metadata
-	var/config_filename = "_maps/gladius.json"
+	var/config_filename = "_maps/jollysausage.json"
 	var/defaulted = TRUE  // set to FALSE by LoadConfig() succeeding
 	// Config from maps.txt
 	var/config_max_users = 0
@@ -14,10 +14,10 @@
 	var/votable = FALSE
 
 	// Config actually from the JSON - should default to Hammerhead //NSV EDITS
-	var/map_name = "NSV Gladius - DEFAULTED"
+	var/map_name = "NSV Jolly Sausage"
 	var/map_link = null //This is intentionally wrong, this will make it not link to webmap.
-	var/map_path = "map_files/Gladius"
-	var/map_file = list("Gladius2.dmm", "Gladius1.dmm")
+	var/map_path = "map_files/jollysausage"
+	var/map_file = list("todger.dmm")
 	var/ship_type = /obj/structure/overmap/nanotrasen/battlecruiser/starter
 	var/mining_ship_type = /obj/structure/overmap/nanotrasen/mining_cruiser/rocinante
 	var/mine_disable = FALSE //NSV13 - Allow disabling of mineship loading.
@@ -29,23 +29,17 @@
 
 	var/traits = list(
 		list(
-			"Up" = 1,
 			"Linkage" = "Cross",
 			"Station" = 1,
 			"Boardable Ship" = 1),
-		list(
-			"Down" = -1,
-			"Linkage" = "Cross",
-			"Station" = 1,
-			"Boardable Ship" = 1)
 		)
 	var/space_ruin_levels = -1
 	var/space_empty_levels = 1
 
 	var/allow_custom_shuttles = TRUE
 	var/shuttles = list(
-		"cargo" = "cargo_gladius",
-		"ferry" = "ferry_kilo",
+		"cargo" = "cargo_sausage",
+		"ferry" = "ferry_fancy",
 		"emergency" = "emergency_donut")
 
 //NSV EDITED END

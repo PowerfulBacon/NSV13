@@ -204,12 +204,6 @@
 
 
 	else
-		SSstar_system.ships[src]["target_system"] = null
-		SSstar_system.ships[src]["current_system"] = target_system
-		SSstar_system.ships[src]["last_system"] = target_system
-		SSstar_system.ships[src]["from_time"] = 0
-		SSstar_system.ships[src]["to_time"] = 0
-		SEND_SIGNAL(src, COMSIG_FTL_STATE_CHANGE)
 		relay(ftl_drive.ftl_exit, "<span class='warning'>You feel the ship lurch to a halt</span>", loop=FALSE, channel = CHANNEL_SHIP_ALERT)
 		after_jump_completed(target_system, ftl_start)
 	for(var/mob/M in mobs_in_ship)

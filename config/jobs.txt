@@ -12,7 +12,7 @@ Master At Arms=1,1
 
 Assistant=-1,-1
 
-Quartermaster=1,1
+Quartermaster=-1,-1
 Cargo Technician=0,0
 Shaft Miner=0,0
 

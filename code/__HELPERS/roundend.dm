@@ -410,7 +410,7 @@
 	GLOB.survivor_report = survivor_report(popcount)
 	for(var/client/C in GLOB.clients)
 		show_roundend_report(C, FALSE)
-		give_show_report_button(C)
+		//give_show_report_button(C)
 		CHECK_TICK
 
 /datum/controller/subsystem/ticker/proc/law_report()

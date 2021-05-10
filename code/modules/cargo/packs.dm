@@ -1134,9 +1134,51 @@
 /datum/supply_pack/materials/iron50
 	name = "50 Iron Sheets"
 	desc = "Any construction project begins with a good stack of fifty iron sheets!"
-	cost = 1000
+	cost = 500
 	contains = list(/obj/item/stack/sheet/iron/fifty)
 	crate_name = "iron sheets crate"
+
+/datum/supply_pack/materials/plasma
+	name = "50 Plasma Sheets"
+	desc = "Any construction project begins with a good stack of fifty plasma sheets!"
+	cost = 1000
+	contains = list(/obj/item/stack/sheet/mineral/plasma/fifty)
+	crate_name = "plasma sheets crate"
+
+/datum/supply_pack/materials/uranium
+	name = "50 Uranium Sheets"
+	desc = "Any construction project begins with a good stack of uranium plasma sheets!"
+	cost = 1000
+	contains = list(/obj/item/stack/sheet/mineral/uranium/fifty)
+	crate_name = "uranium sheets crate"
+
+/datum/supply_pack/materials/gold
+	name = "50 Gold Sheets"
+	desc = "Any construction project begins with a good stack of gold plasma sheets!"
+	cost = 1000
+	contains = list(/obj/item/stack/sheet/mineral/gold/fifty)
+	crate_name = "gold sheets crate"
+
+/datum/supply_pack/materials/silver
+	name = "50 Silver Sheets"
+	desc = "Any construction project begins with a good stack of silver plasma sheets!"
+	cost = 1000
+	contains = list(/obj/item/stack/sheet/mineral/silver/fifty)
+	crate_name = "silver sheets crate"
+
+/datum/supply_pack/materials/diamond
+	name = "50 Diamond Sheets"
+	desc = "Any construction project begins with a good stack of diamond plasma sheets!"
+	cost = 1500
+	contains = list(/obj/item/stack/sheet/mineral/diamond/fifty)
+	crate_name = "diamond sheets crate"
+
+/datum/supply_pack/materials/diamond
+	name = "50 Titanium Sheets"
+	desc = "Any construction project begins with a good stack of titanium plasma sheets!"
+	cost = 1000
+	contains = list(/obj/item/stack/sheet/mineral/titanium)
+	crate_name = "titanium sheets crate"
 
 /datum/supply_pack/materials/iron250
 	name = "250 Iron Sheets"
