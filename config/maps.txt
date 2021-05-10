@@ -12,10 +12,12 @@ Format:
 	disabled (disables the map)
 
 map aetherwhisp
+	disabled
 endmap
 
 map tycoon
 	voteweight 1.5
+	disabled
 endmap
 
 map Atlas
@@ -24,10 +26,12 @@ endmap
 
 map gladius
 	voteweight 1.5
+	disabled
 endmap
 
 #map pegasus
 	voteweight 1.5
+	disabled
 endmap
 
 #map Vago
@@ -43,6 +47,7 @@ endmap
 endmap
 
 #map jeppison
+	disabled
 endmap
 
 #map runtimestation

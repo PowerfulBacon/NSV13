@@ -146,23 +146,22 @@ The reactor CHEWS through moderator. It does not do this slowly. Be very careful
 /obj/machinery/atmospherics/components/trinary/nuclear_reactor/examine(mob/user)
 	. = ..()
 	if(Adjacent(src, user))
-		if(do_after(user, 1 SECONDS, target=src))
-			var/percent = vessel_integrity / initial(vessel_integrity) * 100
-			var/msg = "<span class='warning'>The reactor looks operational.</span>"
-			switch(percent)
-				if(0 to 10)
-					msg = "<span class='boldwarning'>[src]'s seals are dangerously warped and you can see cracks all over the reactor vessel! </span>"
-				if(10 to 40)
-					msg = "<span class='boldwarning'>[src]'s seals are heavily warped and cracked! </span>"
-				if(40 to 60)
-					msg = "<span class='warning'>[src]'s seals are holding, but barely. You can see some micro-fractures forming in the reactor vessel.</span>"
-				if(60 to 80)
-					msg = "<span class='warning'>[src]'s seals are in-tact, but slightly worn. There are no visible cracks in the reactor vessel.</span>"
-				if(80 to 90)
-					msg = "<span class='notice'>[src]'s seals are in good shape, and there are no visible cracks in the reactor vessel.</span>"
-				if(95 to 100)
-					msg = "<span class='notice'>[src]'s seals look factory new, and the reactor's in excellent shape.</span>"
-			. += msg
+		var/percent = vessel_integrity / initial(vessel_integrity) * 100
+		var/msg = "<span class='warning'>The reactor looks operational.</span>"
+		switch(percent)
+			if(0 to 10)
+				msg = "<span class='boldwarning'>[src]'s seals are dangerously warped and you can see cracks all over the reactor vessel! </span>"
+			if(10 to 40)
+				msg = "<span class='boldwarning'>[src]'s seals are heavily warped and cracked! </span>"
+			if(40 to 60)
+				msg = "<span class='warning'>[src]'s seals are holding, but barely. You can see some micro-fractures forming in the reactor vessel.</span>"
+			if(60 to 80)
+				msg = "<span class='warning'>[src]'s seals are in-tact, but slightly worn. There are no visible cracks in the reactor vessel.</span>"
+			if(80 to 90)
+				msg = "<span class='notice'>[src]'s seals are in good shape, and there are no visible cracks in the reactor vessel.</span>"
+			if(95 to 100)
+				msg = "<span class='notice'>[src]'s seals look factory new, and the reactor's in excellent shape.</span>"
+		. += msg
 
 /obj/machinery/atmospherics/components/trinary/nuclear_reactor/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/fuel_rod))
@@ -181,7 +180,9 @@ The reactor CHEWS through moderator. It does not do this slowly. Be very careful
 			W.forceMove(src)
 			radiation_pulse(src, temperature) //Wear protective equipment when even breathing near a reactor!
 		return TRUE
-	if(istype(W, /obj/item/sealant))
+	if(W.tool_behaviour == TOOL_WELDER)
+		if(!W.use_tool(src, user, 40, volume=50))
+			return FALSE
 		if(power >= 20)
 			to_chat(user, "<span class='notice'>You cannot repair [src] while it is running at above 20% power.</span>")
 			return FALSE

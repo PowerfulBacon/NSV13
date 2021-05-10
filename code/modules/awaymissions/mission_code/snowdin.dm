@@ -419,7 +419,6 @@
 
 /obj/item/disk/holodisk/snowdin/ripjacob
 	name = "Conversation #AOP#62"
-	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Jacob Ullman
 	DELAY 10

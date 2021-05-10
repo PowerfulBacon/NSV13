@@ -78,7 +78,6 @@ GLOBAL_LIST_INIT(special_roles, list(
 	ROLE_SYNDI_CREW = /datum/game_mode/pvp, //NSV13
 	ROLE_TERATOMA,
 	ROLE_SYNDI_CREW = /datum/game_mode/pvp, //NSV13
-	ROLE_BLOODLING = /datum/game_mode/bloodling //NSV13
 ))
 //nsv13 - pvp + bloodling modes added here
 
