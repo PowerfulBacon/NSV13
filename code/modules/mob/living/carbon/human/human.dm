@@ -58,7 +58,6 @@
 	var/list/tabs = ..()
 	if(istype(wear_suit, /obj/item/clothing/suit/space/space_ninja))
 		tabs.Insert(1, "SpiderOS")
-	tabs.Insert(2, "Squad") //NSV13 squad tab
 	return tabs
 
 //Ninja Code
@@ -94,12 +93,6 @@
 				for(var/thing in diseases)
 					var/datum/disease/D = thing
 					tab_data["* [D.name]"] = GENERATE_STAT_TEXT("Type: [D.spread_text], Stage: [D.stage]/[D.max_stages], Possible Cure: [D.cure_text]")
-		return tab_data
-	//NSV13 squad tab
-	else if(selected_tab == "Squad")
-		var/list/tab_data = list()
-		client.stat_update_mode = STAT_SLOW_UPDATE
-		tab_data = get_stat_tab_squad()
 		return tab_data
 	//NSV13 end
 	return ..()

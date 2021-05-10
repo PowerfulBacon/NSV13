@@ -72,7 +72,7 @@
 
 /mob/living/simple_animal/bot/atmosbot/Initialize(mapload, new_toolbox_color)
 	. = ..()
-	var/datum/job/engineer/J = new/datum/job/engineer
+	var/datum/job/chief_engineer/J = new/datum/job/chief_engineer
 	access_card.access += J.get_access()
 	prev_access = access_card.access
 

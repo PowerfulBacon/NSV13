@@ -4668,8 +4668,6 @@
 	density = 0;
 	pixel_x = 23
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/storage/box/pinpointer_pairs,
 /turf/open/floor/monotile/steel,
 /area/crew_quarters/heads/xo)

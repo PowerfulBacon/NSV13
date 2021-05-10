@@ -310,7 +310,6 @@
 		unset_busy_human_dummy("HOLODISK_PRESET")
 
 /obj/item/disk/holodisk/example
-	preset_image_type = /datum/preset_holoimage/clown
 	preset_record_text = {"
 	NAME Clown
 	DELAY 10
@@ -330,12 +329,6 @@
 	SAY OOGA
 	DELAY 20"}
 
-/datum/preset_holoimage/engineer
-	outfit_type = /datum/outfit/job/engineer/gloved/rig
-
-/datum/preset_holoimage/researcher
-	outfit_type = /datum/outfit/job/scientist
-
 /datum/preset_holoimage/captain
 	outfit_type = /datum/outfit/job/captain
 
@@ -348,12 +341,8 @@
 /datum/preset_holoimage/corgi
 	nonhuman_mobtype = /mob/living/simple_animal/pet/dog/corgi
 
-/datum/preset_holoimage/clown
-	outfit_type = /datum/outfit/job/clown
-
 /obj/item/disk/holodisk/donutstation/enginewars
 	name = "Conversation #DS034"
-	preset_image_type = /datum/preset_holoimage/engineer
 	preset_record_text = {"
 	NAME Rigsuit Engineer #1
 	DELAY 10

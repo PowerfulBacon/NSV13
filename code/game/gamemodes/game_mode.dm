@@ -851,3 +851,19 @@
 		round_credits += list("<center><h2>The station was free of <s>greytide</s> assistance!</h2>", "<center><h2>Not a single Assistant showed up on the station today!</h2>")
 
 	return round_credits
+
+/datum/game_mode/proc/end_gamemode()
+	//Clean up the antagonists
+	for(var/client/C in GLOB.clients)
+		var/mob/M = C.mob
+		if(!M)
+			continue
+		var/datum/mind/mind = M.mind
+		if(!mind)
+			continue
+		//Remove all antag datums.
+		mind.remove_all_antag()
+		mind.remove_antag_equip()
+		mind.remove_all_antag_datums()
+	//Clear the mode
+	QDEL_NULL(SSticker.mode)

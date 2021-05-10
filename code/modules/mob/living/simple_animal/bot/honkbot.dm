@@ -41,7 +41,7 @@
 	. = ..()
 	update_icon()
 	auto_patrol = TRUE
-	var/datum/job/clown/J = new/datum/job/clown
+	var/datum/job/chief_engineer/J = new/datum/job/chief_engineer
 	access_card.access += J.get_access()
 	prev_access = access_card.access
 

@@ -1638,17 +1638,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					var/department = input(user, "Choose your preferred security department:", "Security Departments") as null|anything in GLOB.security_depts_prefs
 					if(department)
 						prefered_security_department = department
-//Nsv13 squads - we CM now
-				if("squad")
-					var/datum/squad/S = input(user, "Choose your preferred squad:", "Squad Setup") as null|anything in GLOB.squad_manager.squads
-					if(S)
-						preferred_squad = S.name
-				if("squadlead")
-					be_leader = !be_leader
 				if("syndiecrew")
 					var/client/C = (istype(user, /client)) ? user : user.client
 					C.select_syndie_role()
-//Nsv13 end
 				if ("preferred_map")
 					var/maplist = list()
 					var/default = "Default"

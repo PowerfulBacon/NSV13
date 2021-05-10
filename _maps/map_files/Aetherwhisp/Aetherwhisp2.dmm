@@ -32,7 +32,6 @@
 	pixel_x = -3
 	},
 /obj/structure/table/glass,
-/obj/item/squad_pager/all_channels,
 /turf/open/floor/carpet/ship/blue{
 	color = "#9999DD";
 	name = "nanoweave carpet (bluer)"
@@ -20245,11 +20244,6 @@
 	anchored = 1;
 	name = "squad surplus equipment"
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,

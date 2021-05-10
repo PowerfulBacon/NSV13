@@ -24811,11 +24811,6 @@
 	anchored = 1;
 	name = "squad surplus equipment"
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,

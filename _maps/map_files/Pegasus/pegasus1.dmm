@@ -2337,11 +2337,6 @@
 	anchored = 1;
 	name = "squad surplus equipment"
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
@@ -13068,7 +13063,6 @@
 	pixel_x = -3
 	},
 /obj/structure/table/glass,
-/obj/item/squad_pager/all_channels,
 /obj/item/clothing/neck/squad,
 /turf/open/floor/carpet/blue,
 /area/crew_quarters/heads/xo)
@@ -14206,11 +14200,6 @@
 	anchored = 1;
 	name = "squad surplus equipment"
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,

@@ -352,14 +352,11 @@
 
 /obj/effect/mob_spawn/human/engineer
 	name = "Engineer"
-	outfit = /datum/outfit/job/engineer/gloved
-
-/obj/effect/mob_spawn/human/engineer/rig
-	outfit = /datum/outfit/job/engineer/gloved/rig
+	outfit = /datum/outfit/job/ce
 
 /obj/effect/mob_spawn/human/clown
 	name = "Clown"
-	outfit = /datum/outfit/job/clown
+	outfit = /datum/outfit/centcom_clown
 
 /obj/effect/mob_spawn/human/scientist
 	name = "Scientist"
@@ -370,11 +367,10 @@
 	outfit = /datum/outfit/job/miner
 
 /obj/effect/mob_spawn/human/miner/rig
-	outfit = /datum/outfit/job/miner/equipped/hardsuit
+	outfit = /datum/outfit/ert/commander
 
 /obj/effect/mob_spawn/human/miner/explorer
-	outfit = /datum/outfit/job/miner/equipped
-
+	outfit = /datum/outfit/ert/medic
 
 /obj/effect/mob_spawn/human/plasmaman
 	mob_species = /datum/species/plasmaman

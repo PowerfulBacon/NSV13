@@ -28047,14 +28047,6 @@
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/xo)
 "nqI" = (
@@ -28080,7 +28072,6 @@
 /area/crew_quarters/heads/hor)
 "nrl" = (
 /obj/structure/closet/secure_closet/hop,
-/obj/item/squad_pager/all_channels,
 /obj/machinery/airalarm/directional/west,
 /obj/item/circuitboard/computer/squad_manager,
 /turf/open/floor/wood,
@@ -47613,11 +47604,6 @@
 	anchored = 1;
 	name = "squad surplus equipment"
 	},
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
-/obj/item/squad_pager,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,
 /obj/item/clothing/neck/squad,

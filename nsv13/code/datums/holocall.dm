@@ -1,7 +1,6 @@
 /obj/item/disk/holodisk/hammerhead_cryo
 	name = "Engineering Audit Log HH-593"
 	desc = "A holodisk containing a recording of a work order being carried out during servicing."
-	preset_image_type = /datum/preset_holoimage/engineer
 	preset_record_text = {"
 	NAME Almayer Gervais
 	DELAY 10
@@ -36,7 +35,6 @@
 /obj/item/disk/holodisk/enterprise_log
 	name = "SGC Enterprise Audit Log CV-9654"
 	desc = "It has a large label on it reading 'CLASSIFIED' underneath a symbol of a large sun surrounded by wings."
-	preset_image_type = /datum/preset_holoimage/engineer
 	preset_record_text = {"
 	NAME Joshua Griggs
 	DELAY 10
@@ -83,7 +81,6 @@
 /obj/item/disk/holodisk/enterprise_log/two
 	name = "SGC Enterprise Audit Log CV-9658"
 	desc = "A diskette with a symbol of a large sun surrounded by wings. A date has been hastily scrawled onto it with a permanent marker."
-	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Stewart Lance
 	DELAY 20

@@ -16388,7 +16388,6 @@
 	pixel_x = -3
 	},
 /obj/structure/table/glass,
-/obj/item/squad_pager/all_channels,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},

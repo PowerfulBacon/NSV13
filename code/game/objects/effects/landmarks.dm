@@ -214,8 +214,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/randommaint
 	name = "maintjobstart"
-	icon_state = "x3" 
-	var/job = "Gimmick" //put the title of the job here. 
+	icon_state = "x3"
+	var/job = "Gimmick" //put the title of the job here.
 
 /obj/effect/landmark/start/randommaint/New() //automatically opens up a job slot when the job's spawner loads in
 	..()
@@ -234,7 +234,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/randommaint/hobo
 	name = "Debtor"
 	job = "Debtor"
-	
+
 /obj/effect/landmark/start/randommaint/shrink
 	name = "Psychiatrist"
 	job = "Psychiatrist"
@@ -341,7 +341,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	GLOB.xeno_spawn += loc
 	return INITIALIZE_HINT_QDEL
 
-//objects with the stationloving component (nuke disk) respawn here. 
+//objects with the stationloving component (nuke disk) respawn here.
 //also blobs that have their spawn forcemoved (running out of time when picking their spawn spot), santa and respawning devils
 /obj/effect/landmark/blobstart
 	name = "blobstart"
@@ -476,3 +476,31 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	GLOB.ruin_landmarks -= src
 	ruin_template = null
 	. = ..()
+
+/obj/effect/landmark/start/air_traffic_controller
+	name = "Air Traffic Controller"
+	icon_state = "Air Traffic Controller"
+
+/obj/effect/landmark/start/bridge
+	name = "Bridge Staff"
+	icon_state = "Bridge Staff"
+
+/obj/effect/landmark/start/fighter_pilot
+	name = "Fighter Pilot"
+	icon_state = "Fighter Pilot"
+
+/obj/effect/landmark/start/flight_leader
+	name = "Flight Leader"
+	icon_state = "Flight Leader"
+
+/obj/effect/landmark/start/deck_tech
+	name = "Deck Technician"
+	icon_state = "Deck Technician"
+
+/obj/effect/landmark/start/master_at_arms
+	name = "Master At Arms"
+	icon_state = "Master At Arms"
+
+/obj/effect/landmark/start/munitions_tech
+	name = "Munitions Technician"
+	icon_state = "Munitions Technician"
