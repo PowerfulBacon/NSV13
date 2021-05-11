@@ -71,8 +71,8 @@
 			objectives += kill_objective
 			log_objective(owner, kill_objective.explanation_text)
 
-			if (!(locate(/datum/objective/escape) in objectives))
-				var/datum/objective/escape/escape_objective = new
+			if (!(locate(/datum/objective/survive) in objectives))
+				var/datum/objective/survive/escape_objective = new
 				escape_objective.owner = owner
 				objectives += escape_objective
 				log_objective(owner, escape_objective.explanation_text)
@@ -84,8 +84,8 @@
 			objectives += steal_objective
 			log_objective(owner, steal_objective.explanation_text)
 
-			if (!(locate(/datum/objective/escape) in objectives))
-				var/datum/objective/escape/escape_objective = new
+			if (!(locate(/datum/objective/survive) in objectives))
+				var/datum/objective/survive/escape_objective = new
 				escape_objective.owner = owner
 				objectives += escape_objective
 				log_objective(owner, escape_objective.explanation_text)

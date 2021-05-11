@@ -430,8 +430,11 @@ SUBSYSTEM_DEF(job)
 	var/mob/living/living_mob
 
 	if(!joined_late)
-		newplayer = M
-		living_mob = newplayer.new_character
+		if(isnewplayer(M))
+			newplayer = M
+			living_mob = newplayer.new_character
+		else
+			living_mob = M
 	else
 		living_mob = M
 
@@ -468,7 +471,8 @@ SUBSYSTEM_DEF(job)
 		if(ismob(new_mob))
 			living_mob = new_mob
 			if(!joined_late)
-				newplayer.new_character = living_mob
+				if(newplayer)
+					newplayer.new_character = living_mob
 			else
 				M = living_mob
 

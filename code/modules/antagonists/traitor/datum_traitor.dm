@@ -87,14 +87,6 @@
 	for(var/i = objective_count, i < toa, i++)
 		forge_single_objective()
 
-	if(is_hijacker && objective_count <= toa) //Don't assign hijack if it would exceed the number of objectives set in config.traitor_objectives_amount
-		if (!(locate(/datum/objective/hijack) in objectives))
-			var/datum/objective/hijack/hijack_objective = new
-			hijack_objective.owner = owner
-			add_objective(hijack_objective)
-			return
-
-
 	var/martyr_compatibility = 1 //You can't succeed in stealing if you're dead.
 	for(var/datum/objective/O in objectives)
 		if(!O.martyr_compatible)
@@ -108,8 +100,8 @@
 		return
 
 	else
-		if(!(locate(/datum/objective/escape) in objectives))
-			var/datum/objective/escape/escape_objective = new
+		if(!(locate(/datum/objective/survive) in objectives))
+			var/datum/objective/survive/escape_objective = new
 			escape_objective.owner = owner
 			add_objective(escape_objective)
 			return
@@ -143,12 +135,12 @@
 	if(prob(50))
 		var/list/active_ais = active_ais()
 		if(active_ais.len && prob(100/GLOB.joined_player_list.len))
-			var/datum/objective/destroy/destroy_objective = new
+			var/datum/objective/assassinate/destroy_objective = new
 			destroy_objective.owner = owner
 			destroy_objective.find_target()
 			add_objective(destroy_objective)
 		else if(prob(30))
-			var/datum/objective/maroon/maroon_objective = new
+			var/datum/objective/assassinate/maroon_objective = new
 			maroon_objective.owner = owner
 			maroon_objective.find_target()
 			add_objective(maroon_objective)
@@ -158,8 +150,8 @@
 			kill_objective.find_target()
 			add_objective(kill_objective)
 	else
-		if(prob(15) && !(locate(/datum/objective/download) in objectives) && !(owner.assigned_role in list("Research Director", "Scientist", "Roboticist")))
-			var/datum/objective/download/download_objective = new
+		if(prob(15) && !(locate(/datum/objective/steal) in objectives) && !(owner.assigned_role in list("Research Director", "Scientist", "Roboticist")))
+			var/datum/objective/steal/download_objective = new
 			download_objective.owner = owner
 			download_objective.gen_amount_goal()
 			add_objective(download_objective)
@@ -190,7 +182,7 @@
 			yandere_one.owner = owner
 			add_objective(yandere_one)
 			yandere_one.find_target()
-			var/datum/objective/maroon/yandere_two = new
+			var/datum/objective/assassinate/yandere_two = new
 			yandere_two.owner = owner
 			yandere_two.target = yandere_one.target
 			yandere_two.update_explanation_text() // normally called in find_target()

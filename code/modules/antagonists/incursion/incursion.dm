@@ -155,8 +155,8 @@
 	if(is_hijacker)
 		if(!(locate(/datum/objective/hijack/single) in objectives))
 			add_objective(new/datum/objective/hijack/single)
-	else if(!(locate(/datum/objective/escape/single) in objectives))
-		add_objective(new/datum/objective/escape/single, FALSE)
+	else if(!(locate(/datum/objective/survive/single) in objectives))
+		add_objective(new/datum/objective/survive/single, FALSE)
 
 /datum/team/incursion/proc/forge_single_objective(difficulty=1)
 	difficulty = CLAMP(difficulty, 1, 3)
@@ -164,7 +164,7 @@
 		if(3)
 			if(LAZYLEN(active_ais()) && prob(25))	//25 %
 				//Kill AI
-				add_objective(new/datum/objective/destroy, TRUE)
+				add_objective(new/datum/objective/assassinate, TRUE)
 			else if(prob(32))						//~26%
 				//Kill head
 				var/datum/objective/assassinate/killchosen = new

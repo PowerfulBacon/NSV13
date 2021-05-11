@@ -162,15 +162,15 @@
 	if(is_hijacker)
 		if(!locate(/datum/objective/hijack) in objectives)
 			add_objective(new/datum/objective/hijack)
-	else if(!locate(/datum/objective/escape) in objectives)
-		add_objective(new/datum/objective/escape)
+	else if(!locate(/datum/objective/survive) in objectives)
+		add_objective(new/datum/objective/survive)
 
 /datum/team/brother_team/proc/forge_single_objective()
 	if(prob(50))
 		if(LAZYLEN(active_ais()) && prob(100/GLOB.joined_player_list.len))
-			add_objective(new/datum/objective/destroy, TRUE)
+			add_objective(new/datum/objective/assassinate, TRUE)
 		else if(prob(30))
-			add_objective(new/datum/objective/maroon, TRUE)
+			add_objective(new/datum/objective/assassinate, TRUE)
 		else
 			add_objective(new/datum/objective/assassinate, TRUE)
 	else

@@ -371,6 +371,7 @@ Proc to spool up a new Z-level for a player ship and assign it a treadmill.
 		weapon_types[FIRE_MODE_FLAK] = new /datum/ship_weapon/flak(src)
 	if(mass > MASS_MEDIUM || occupying_levels.len)
 		weapon_types[FIRE_MODE_MAC] = new /datum/ship_weapon/mac(src)
+		weapon_types[FIRE_MODE_RAILGUN] = new /datum/ship_weapon/railgun(src)
 	if(ai_controlled)
 		weapon_types[FIRE_MODE_MISSILE] = new/datum/ship_weapon/missile_launcher(src)
 	/*

@@ -4,41 +4,48 @@
  */
 /obj/structure/overmap/proc/after_jump_completed(datum/star_system/target_system, ftl_start)
 
+	var/static/last_round_end_time = 0
+
 	//Arrive in system
 	addtimer(CALLBACK(src, .proc/arrive_in_system, target_system, ftl_start), 180 SECONDS, TIMER_UNIQUE)
 
-	//Post message
-	var/popcount = SSticker.gather_roundend_feedback()
-	to_chat(world, "===============================")
-	to_chat(world, "<span class='userdanger'>Round Completed</span>")
-	to_chat(world, "<span class='danger'>Ship integrity: [popcount["station_integrity"]]%]</span>")
-	to_chat(world, "<span class='danger'>Players alive: [popcount[POPCOUNT_SURVIVORS]]</span>")
-	to_chat(world, "===============================")
-	to_chat(world, "<span class='notice'>THE NEXT ROUND WILL BEGIN IN 180 SECONDS.</span>")
-	to_chat(world, "<span class='notice'>Prepare the ship for combat!</span>")
-	to_chat(world, "===============================")
-	SSticker.display_report(popcount)
+	if(world.time > last_round_end_time + 15 MINUTES)
+		//Post message
+		var/popcount = SSticker.gather_roundend_feedback()
+		to_chat(world, "===============================")
+		to_chat(world, "<span class='userdanger'>Round Completed</span>")
+		to_chat(world, "<span class='danger'>Ship integrity: [popcount["station_integrity"]]%]</span>")
+		to_chat(world, "<span class='danger'>Players alive: [popcount[POPCOUNT_SURVIVORS]]</span>")
+		to_chat(world, "===============================")
+		to_chat(world, "<span class='notice'>THE NEXT ROUND WILL BEGIN IN 180 SECONDS.</span>")
+		to_chat(world, "<span class='notice'>Prepare the ship for combat!</span>")
+		to_chat(world, "===============================")
+		SSticker.display_report(popcount)
+	else
+		var/popcount = SSticker.gather_roundend_feedback()
+		to_chat(world, "===============================")
+		to_chat(world, "<span class='danger'>Ship integrity: [popcount["station_integrity"]]%]</span>")
+		to_chat(world, "<span class='danger'>Players alive: [popcount[POPCOUNT_SURVIVORS]]</span>")
+		to_chat(world, "===============================")
+		to_chat(world, "<span class='notice'>THE CURRENT ROUND IS CONTINUING, NO NEW TRAITORS HAVE BEEN CREATED.</span>")
+		to_chat(world, "<span class='notice'>Dead players have respawned.</span>")
+		to_chat(world, "===============================")
 
-	//Reset occupations
-	SSjob.ResetOccupations()
+	last_round_end_time = world.time
 
 	//Restart game
-	SSticker.mode.end_gamemode()
+	if(world.time > last_round_end_time + 15 MINUTES)
+		SSticker.mode.end_gamemode()
 
 	//Respawn people.
 	var/list/people_to_respawn = list()
 	for(var/mob/M in GLOB.player_list)
-		//Forcemove to a spawn
-		GLOB.start_landmarks_list = shuffle(GLOB.start_landmarks_list)
 		//Create character
 		//var/mob/living/carbon/human/H
 		if(!ishuman(M))
-			M.respawn_character()
-			people_to_respawn += M
+			people_to_respawn += M.respawn_character()
 
 	//Collect minds and finish respawning
-	SSticker.minds.Cut()
-	SSticker.collect_minds()
 	equip_people(people_to_respawn)
 
 	GLOB.data_core.medical.Cut()
@@ -49,47 +56,21 @@
 
 	SSticker.transfer_characters()
 
-	delete_antag_items()
-
 	//Choose new gamemode.
-	trigger_gamemode_start()
+	if(world.time > last_round_end_time + 15 MINUTES)
+		delete_antag_items()
+		trigger_gamemode_start()
 
 /proc/equip_people(list/people_to_equip)
-	var/captainless = TRUE
-	var/list/spare_id_candidates = list()
-	var/highest_rank = length(SSjob.chain_of_command) + 1
-	var/enforce_coc = CONFIG_GET(flag/spare_enforce_coc)
-
 	for(var/mob/N in people_to_equip)
 		var/mob/living/carbon/human/player = N
+		player.mind.remove_all_antag_datums()
 		if(istype(player) && player.mind && player.mind.assigned_role)
-			if(player.mind.assigned_role == "Captain")
-				captainless = FALSE
-				spare_id_candidates += N
-			else if(captainless && (player.mind.assigned_role in GLOB.command_positions) && !(is_banned_from(N.ckey, "Captain")))
-				if(!enforce_coc)
-					spare_id_candidates += N
-				else
-					var/spare_id_priority = SSjob.chain_of_command[player.mind.assigned_role]
-					if(spare_id_priority)
-						if(spare_id_priority < highest_rank)
-							spare_id_candidates.Cut()
-							spare_id_candidates += N
-							highest_rank = spare_id_priority
-						else if(spare_id_priority == highest_rank)
-							spare_id_candidates += N
 			if(player.mind.assigned_role != player.mind.special_role)
 				SSjob.EquipRank(N, player.mind.assigned_role, FALSE)
 			if(CONFIG_GET(flag/roundstart_traits) && ishuman(player))
 				SSquirks.AssignQuirks(player, N.client, TRUE)
-		CHECK_TICK
-	if(length(spare_id_candidates))			//No captain, time to choose acting captain
-		if(!enforce_coc)
-			for(var/mob/dead/new_player/player in spare_id_candidates)
-				SSjob.promote_to_captain(player, captainless)
-
-		else
-			SSjob.promote_to_captain(pick(spare_id_candidates), captainless)		//This is just in case 2 heads of the same priority spawn
+		SSjob.SendToLateJoin(player, TRUE)
 		CHECK_TICK
 
 /proc/trigger_gamemode_start()
@@ -113,7 +94,7 @@
 			SSticker.mode = pickweight(runnable_modes)
 			if(!SSticker.mode)	//too few roundtypes all run too recently
 				SSticker.mode = pick(runnable_modes)
-			to_chat(world, "[SSticker.mode.name] has started...")
+			to_chat(world, "A new gamemode has started...")
 
 	else
 		SSticker.mode = global.config.pick_mode(GLOB.master_mode)

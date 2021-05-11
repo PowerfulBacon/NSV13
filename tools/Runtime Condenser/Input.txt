@@ -906,12 +906,12 @@ the back (/atom/movable/screen): Click(null, "mapwindow.map", "icon-x=18;icon-y=
 ### VarEdit by Yinadele: /mob/living/carbon/metroid/adult ckey=yinadele
 ### VarEdit by Yinadele: /mob/living/carbon/metroid ckey=emperorofcatkind
 runtime error: Cannot read null.current
-proc name: check completion (/datum/objective/download/check_completion)
+proc name: check completion (/datum/objective/steal/check_completion)
   source file: objective.dm,411
   usr: null
-  src: /datum/objective/download (/datum/objective/download)
+  src: /datum/objective/steal (/datum/objective/steal)
   call stack:
-/datum/objective/download (/datum/objective/download): check completion()
+/datum/objective/steal (/datum/objective/steal): check completion()
 extended (/datum/game_mode/extended): auto declare completion traitor()
 /datum/controller/gameticker (/datum/controller/gameticker): declare completion()
 /datum/controller/gameticker (/datum/controller/gameticker): process()
@@ -926,12 +926,12 @@ extended (/datum/game_mode/extended): auto declare completion traitor()
 /datum/controller/gameticker (/datum/controller/gameticker): declare completion()
 /datum/controller/gameticker (/datum/controller/gameticker): process()
 runtime error: Cannot read null.current
-proc name: check completion (/datum/objective/download/check_completion)
+proc name: check completion (/datum/objective/steal/check_completion)
   source file: objective.dm,411
   usr: null
-  src: /datum/objective/download (/datum/objective/download)
+  src: /datum/objective/steal (/datum/objective/steal)
   call stack:
-/datum/objective/download (/datum/objective/download): check completion()
+/datum/objective/steal (/datum/objective/steal): check completion()
 extended (/datum/game_mode/extended): auto declare completion traitor()
 /datum/controller/gameticker (/datum/controller/gameticker): declare completion()
 /datum/controller/gameticker (/datum/controller/gameticker): process()
@@ -946,10 +946,10 @@ extended (/datum/game_mode/extended): auto declare completion traitor()
 /datum/controller/gameticker (/datum/controller/gameticker): declare completion()
 /datum/controller/gameticker (/datum/controller/gameticker): process()
 runtime error: Cannot read null.current
-proc name: check completion (/datum/objective/download/check_completion)
+proc name: check completion (/datum/objective/steal/check_completion)
   source file: objective.dm,411
 runtime error: Cannot read null.current
-proc name: check completion (/datum/objective/download/check_completion)
+proc name: check completion (/datum/objective/steal/check_completion)
   source file: objective.dm,411
 runtime error: Cannot read null.current
 proc name: check completion (/datum/objective/steal/check_completion)

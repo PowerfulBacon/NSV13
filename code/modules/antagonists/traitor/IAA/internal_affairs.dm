@@ -101,13 +101,13 @@
 
 
 /proc/is_internal_objective(datum/objective/O)
-	return (istype(O, /datum/objective/assassinate/internal)||istype(O, /datum/objective/destroy/internal))
+	return (istype(O, /datum/objective/assassinate/internal)||istype(O, /datum/objective/assassinate/internal))
 
 /datum/antagonist/traitor/proc/replace_escape_objective()
 	if(!owner || !objectives.len)
 		return
 	for (var/objective_ in objectives)
-		if(!(istype(objective_, /datum/objective/escape)||istype(objective_, /datum/objective/survive)))
+		if(!(istype(objective_, /datum/objective/survive)||istype(objective_, /datum/objective/survive)))
 			continue
 		remove_objective(objective_)
 
@@ -125,10 +125,10 @@
 
 /datum/antagonist/traitor/internal_affairs/reinstate_escape_objective()
 	..()
-	var/objtype = traitor_kind == TRAITOR_HUMAN ? /datum/objective/escape : /datum/objective/survive/exist
-	var/datum/objective/escape_objective = new objtype
-	escape_objective.owner = owner
-	add_objective(escape_objective)
+	var/objtype = traitor_kind == TRAITOR_HUMAN ? /datum/objective/survive : /datum/objective/survive/exist
+	var/datum/objective/survive/survive_objective = new objtype
+	survive_objective.owner = owner
+	add_objective(survive_objective)
 
 /datum/antagonist/traitor/internal_affairs/proc/steal_targets(datum/mind/victim)
 	if(!owner.current||owner.current.stat==DEAD)
@@ -148,9 +148,9 @@
 				targets_stolen += objective.target
 				var/status_text = objective.check_completion() ? "neutralised" : "active"
 				to_chat(owner.current, "<span class='userdanger'> New target added to database: [objective.target.name] ([status_text]) </span>")
-		else if(istype(objective_, /datum/objective/destroy/internal))
-			var/datum/objective/destroy/internal/objective = objective_
-			var/datum/objective/destroy/internal/new_objective = new
+		else if(istype(objective_, /datum/objective/assassinate/internal))
+			var/datum/objective/assassinate/internal/objective = objective_
+			var/datum/objective/assassinate/internal/new_objective = new
 			if(objective.target==owner)
 				continue
 			else if(targets_stolen.Find(objective.target) == 0)
@@ -208,7 +208,7 @@
 		// Assassinate
 		var/datum/mind/target_mind = SSticker.mode.target_list[owner]
 		if(issilicon(target_mind.current))
-			var/datum/objective/destroy/internal/destroy_objective = new
+			var/datum/objective/assassinate/internal/destroy_objective = new
 			destroy_objective.owner = owner
 			destroy_objective.target = target_mind
 			destroy_objective.update_explanation_text()
@@ -231,10 +231,10 @@
 /datum/antagonist/traitor/internal_affairs/forge_traitor_objectives()
 	forge_iaa_objectives()
 
-	var/objtype = traitor_kind == TRAITOR_HUMAN ? /datum/objective/escape : /datum/objective/survive/exist
-	var/datum/objective/escape_objective = new objtype
-	escape_objective.owner = owner
-	add_objective(escape_objective)
+	var/objtype = traitor_kind == TRAITOR_HUMAN ? /datum/objective/survive : /datum/objective/survive/exist
+	var/datum/objective/survive/survive_objective = new objtype
+	survive_objective.owner = owner
+	add_objective(survive_objective)
 
 /datum/antagonist/traitor/internal_affairs/proc/greet_iaa()
 	var/crime = pick("distribution of contraband" , "unauthorized erotic action on duty", "embezzlement", "piloting under the influence", "dereliction of duty", "syndicate collaboration", "mutiny", "multiple homicides", "corporate espionage", "receiving bribes", "malpractice", "worship of prohibited life forms", "possession of profane texts", "murder", "arson", "insulting their manager", "grand theft", "conspiracy", "attempting to unionize", "vandalism", "gross incompetence")

@@ -31,12 +31,6 @@
 	difficulty = 5
 	excludefromjob = list("Captain")
 
-/datum/objective_item/steal/hoslaser
-	name = "the head of security's personal glock, 'Winona'." //Nsv13 changed this because LASERS BAD
-	targetitem = /obj/item/gun/ballistic/automatic/pistol/glock/command/hos
-	difficulty = 10
-	excludefromjob = list("Head Of Security")
-
 /datum/objective_item/steal/handtele
 	name = "a hand teleporter."
 	targetitem = /obj/item/hand_tele
@@ -49,23 +43,11 @@
 	difficulty = 5
 	excludefromjob = list("Captain")
 
-/datum/objective_item/steal/magboots
-	name = "the chief engineer's advanced magnetic boots."
-	targetitem =  /obj/item/clothing/shoes/magboots/advance
-	difficulty = 5
-	excludefromjob = list("Chief Engineer")
-
 /datum/objective_item/steal/capmedal
 	name = "the medal of captaincy."
 	targetitem = /obj/item/clothing/accessory/medal/gold/captain
 	difficulty = 5
 	excludefromjob = list("Captain")
-
-/datum/objective_item/steal/hypo
-	name = "the hypospray."
-	targetitem = /obj/item/reagent_containers/hypospray/CMO
-	difficulty = 5
-	excludefromjob = list("Chief Medical Officer")
 
 /datum/objective_item/steal/nukedisc
 	name = "the nuclear authentication disk."
@@ -75,18 +57,6 @@
 
 /datum/objective_item/steal/nukedisc/check_special_completion(obj/item/disk/nuclear/N)
 	return !N.fake
-
-/datum/objective_item/steal/riot
-	name = "a riot suit."
-	targetitem = /obj/item/clothing/suit/armor/riot
-	difficulty = 3
-	excludefromjob = list("Head of Security", "Warden")
-
-/datum/objective_item/steal/reactive
-	name = "the reactive teleport armor."
-	targetitem = /obj/item/clothing/suit/armor/reactive/teleport
-	difficulty = 5
-	excludefromjob = list("Research Director")
 
 /datum/objective_item/steal/documents
 	name = "any set of secret documents of any organization."
@@ -101,76 +71,6 @@
 /datum/objective_item/steal/nuke_core/New()
 	special_equipment += /obj/item/storage/box/syndie_kit/nuke
 	..()
-
-/datum/objective_item/steal/supermatter
-	name = "a sliver of a supermatter crystal. Be sure to use the proper safety equipment when extracting the sliver!"
-	targetitem = /obj/item/nuke_core/supermatter_sliver
-	difficulty = 15
-
-/datum/objective_item/steal/supermatter/New()
-	special_equipment += /obj/item/storage/box/syndie_kit/supermatter
-	..()
-
-/datum/objective_item/steal/supermatter/TargetExists()
-	return GLOB.main_supermatter_engine != null
-
-//Items with special checks!
-/datum/objective_item/steal/plasma
-	name = "28 moles of plasma (full tank). Be sure to fill up the tank with additional plasma since it doesn't start full!"
-	targetitem = /obj/item/tank
-	difficulty = 3
-	excludefromjob = list("Chief Engineer","Research Director","Station Engineer","Scientist","Atmospheric Technician")
-
-/datum/objective_item/steal/plasma/check_special_completion(obj/item/tank/T)
-	var/target_amount = text2num(name)
-	var/found_amount = 0
-	found_amount += T.air_contents.get_moles(/datum/gas/plasma)
-	return found_amount>=target_amount
-
-
-/datum/objective_item/steal/functionalai
-	name = "a functional AI."
-	targetitem = /obj/item/aicard
-	difficulty = 20 //beyond the impossible
-
-/datum/objective_item/steal/functionalai/check_special_completion(obj/item/aicard/C)
-	for(var/mob/living/silicon/ai/A in C)
-		if(isAI(A) && A.stat != DEAD) //See if any AI's are alive inside that card.
-			return 1
-	return 0
-
-/datum/objective_item/steal/blueprints
-	name = "the station blueprints."
-	targetitem = /obj/item/areaeditor/blueprints
-	difficulty = 10
-	excludefromjob = list("Chief Engineer")
-	altitems = list(/obj/item/photo)
-
-/datum/objective_item/steal/blueprints/check_special_completion(obj/item/I)
-	if(istype(I, /obj/item/areaeditor/blueprints))
-		return TRUE
-	if(istype(I, /obj/item/photo))
-		var/obj/item/photo/P = I
-		if(P.picture.has_blueprints)	//if the blueprints are in frame
-			return TRUE
-	return FALSE
-
-/datum/objective_item/steal/slime
-	name = "an unused sample of slime extract."
-	targetitem = /obj/item/slime_extract
-	difficulty = 3
-	excludefromjob = list("Research Director","Scientist")
-
-/datum/objective_item/steal/slime/check_special_completion(obj/item/slime_extract/E)
-	if(E.Uses > 0)
-		return 1
-	return 0
-
-/datum/objective_item/steal/blackbox
-	name = "the blackbox."
-	targetitem = /obj/item/blackbox
-	difficulty = 10
-	excludefromjob = list("Chief Engineer","Station Engineer","Atmospheric Technician")
 
 //Unique Objectives
 /datum/objective_item/unique/docs_red

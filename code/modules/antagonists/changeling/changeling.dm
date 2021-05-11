@@ -402,7 +402,7 @@
 			objectives += steal_objective
 			log_objective(owner, steal_objective.explanation_text)
 		else
-			var/datum/objective/download/download_objective = new
+			var/datum/objective/steal/download_objective = new
 			download_objective.owner = owner
 			download_objective.gen_amount_goal()
 			objectives += download_objective
@@ -410,7 +410,7 @@
 
 	var/list/active_ais = active_ais()
 	if(active_ais.len && prob(100/GLOB.joined_player_list.len))
-		var/datum/objective/destroy/destroy_objective = new
+		var/datum/objective/assassinate/destroy_objective = new
 		destroy_objective.owner = owner
 		destroy_objective.find_target()
 		objectives += destroy_objective
@@ -426,7 +426,7 @@
 			objectives += kill_objective
 			log_objective(owner, kill_objective.explanation_text)
 		else
-			var/datum/objective/maroon/maroon_objective = new
+			var/datum/objective/assassinate/maroon_objective = new
 			maroon_objective.owner = owner
 			if(team_mode)
 				maroon_objective.find_target_by_role(role = ROLE_CHANGELING, role_type = TRUE, invert = TRUE)
@@ -435,8 +435,8 @@
 			objectives += maroon_objective
 			log_objective(owner, maroon_objective.explanation_text)
 
-			if (!(locate(/datum/objective/escape) in objectives) && escape_objective_possible)
-				var/datum/objective/escape/escape_with_identity/identity_theft = new
+			if (!(locate(/datum/objective/survive) in objectives) && escape_objective_possible)
+				var/datum/objective/survive/escape_with_identity/identity_theft = new
 				identity_theft.owner = owner
 				identity_theft.target = maroon_objective.target
 				identity_theft.update_explanation_text()
@@ -444,14 +444,14 @@
 				log_objective(owner, identity_theft.explanation_text)
 				escape_objective_possible = FALSE
 
-	if (!(locate(/datum/objective/escape) in objectives) && escape_objective_possible)
+	if (!(locate(/datum/objective/survive) in objectives) && escape_objective_possible)
 		if(prob(50))
-			var/datum/objective/escape/escape_objective = new
+			var/datum/objective/survive/escape_objective = new
 			escape_objective.owner = owner
 			objectives += escape_objective
 			log_objective(owner, escape_objective.explanation_text)
 		else
-			var/datum/objective/escape/escape_with_identity/identity_theft = new
+			var/datum/objective/survive/escape_with_identity/identity_theft = new
 			identity_theft.owner = owner
 			if(team_mode)
 				identity_theft.find_target_by_role(role = ROLE_CHANGELING, role_type = TRUE, invert = TRUE)

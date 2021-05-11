@@ -260,7 +260,7 @@
 		objectives += biggest_objective
 		log_objective(owner, biggest_objective.explanation_text)
 
-	var/datum/objective/escape/escape_objective = new
+	var/datum/objective/survive/escape_objective = new
 	escape_objective.owner = owner
 	objectives += escape_objective
 	log_objective(owner, escape_objective.explanation_text)

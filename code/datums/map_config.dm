@@ -18,7 +18,7 @@
 	var/map_link = null //This is intentionally wrong, this will make it not link to webmap.
 	var/map_path = "map_files/jollysausage"
 	var/map_file = list("todger.dmm")
-	var/ship_type = /obj/structure/overmap/nanotrasen/battlecruiser/starter
+	var/ship_type = /obj/structure/overmap/nanotrasen/patrol_cruiser/starter
 	var/mining_ship_type = /obj/structure/overmap/nanotrasen/mining_cruiser/rocinante
 	var/mine_disable = FALSE //NSV13 - Allow disabling of mineship loading.
 	var/mine_file = "Rocinante.dmm" //Nsv13. Heavy changes to this file

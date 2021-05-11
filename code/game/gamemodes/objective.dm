@@ -227,28 +227,6 @@ GLOBAL_LIST_EMPTY(objectives)
 	else
 		explanation_text = "Free Objective"
 
-/datum/objective/maroon
-	name = "maroon"
-	var/target_role_type=FALSE
-	martyr_compatible = 1
-
-/datum/objective/maroon/find_target_by_role(role, role_type=FALSE,invert=FALSE)
-	if(!invert)
-		target_role_type = role_type
-	..()
-
-/datum/objective/maroon/check_completion()
-	return !target || !considered_alive(target) || (!target.current.onCentCom() && !target.current.onSyndieBase())
-
-/datum/objective/maroon/update_explanation_text()
-	if(target && target.current)
-		explanation_text = "Prevent [target.name], the [!target_role_type ? target.assigned_role : target.special_role], from escaping alive."
-	else
-		explanation_text = "Free Objective"
-
-/datum/objective/maroon/admin_edit(mob/admin)
-	admin_simple_target_pick(admin)
-
 /datum/objective/debrain
 	name = "debrain"
 	var/target_role_type=0
@@ -396,12 +374,12 @@ GLOBAL_LIST_EMPTY(objectives)
 				counter++
 	return counter >= 8
 
-/datum/objective/escape
+/datum/objective/survive
 	name = "escape"
 	explanation_text = "Return to central command via escape shuttle, pod, or crew transfer alive and without being in custody."
 	team_explanation_text = "Have all members of your team return to central command via escape shuttle, pod, or crew transfer, without being in custody."
 
-/datum/objective/escape/check_completion()
+/datum/objective/survive/check_completion()
 	// Require all owners escape safely.
 	var/list/datum/mind/owners = get_owners()
 	for(var/datum/mind/M in owners)
@@ -409,12 +387,12 @@ GLOBAL_LIST_EMPTY(objectives)
 			return FALSE
 	return TRUE
 
-/datum/objective/escape/single
+/datum/objective/survive/single
 	name = "escape"
 	explanation_text = "Escape on the shuttle or an escape pod alive and without being in custody."
 	team_explanation_text = "Have at least one of your members escape on the shuttle or escape pod alive and without being in custody."
 
-/datum/objective/escape/single/check_completion()
+/datum/objective/survive/single/check_completion()
 	// Require all owners escape safely.
 	var/list/datum/mind/owners = get_owners()
 	for(var/datum/mind/M in owners)
@@ -422,16 +400,16 @@ GLOBAL_LIST_EMPTY(objectives)
 			return TRUE
 	return FALSE
 
-/datum/objective/escape/escape_with_identity
+/datum/objective/survive/escape_with_identity
 	name = "escape with identity"
 	var/target_real_name // Has to be stored because the target's real_name can change over the course of the round
 	var/target_missing_id
 
-/datum/objective/escape/escape_with_identity/find_target(dupe_search_range)
+/datum/objective/survive/escape_with_identity/find_target(dupe_search_range)
 	target = ..()
 	update_explanation_text()
 
-/datum/objective/escape/escape_with_identity/is_valid_target(possible_target)
+/datum/objective/survive/escape_with_identity/is_valid_target(possible_target)
 	var/list/datum/mind/owners = get_owners()
 	for(var/datum/mind/M in owners)
 		if(!M)
@@ -443,7 +421,7 @@ GLOBAL_LIST_EMPTY(objectives)
 			return FALSE
 	return TRUE
 
-/datum/objective/escape/escape_with_identity/update_explanation_text()
+/datum/objective/survive/escape_with_identity/update_explanation_text()
 	if(target && target.current)
 		target_real_name = target.current.real_name
 		explanation_text = "Escape on the shuttle or an escape pod with the identity of [target_real_name], the [target.assigned_role]"
@@ -459,7 +437,7 @@ GLOBAL_LIST_EMPTY(objectives)
 	else
 		explanation_text = "Free Objective."
 
-/datum/objective/escape/escape_with_identity/check_completion()
+/datum/objective/survive/escape_with_identity/check_completion()
 	if(!target || !target_real_name)
 		return TRUE
 	var/list/datum/mind/owners = get_owners()
@@ -471,7 +449,7 @@ GLOBAL_LIST_EMPTY(objectives)
 			return TRUE
 	return FALSE
 
-/datum/objective/escape/escape_with_identity/admin_edit(mob/admin)
+/datum/objective/survive/escape_with_identity/admin_edit(mob/admin)
 	admin_simple_target_pick(admin)
 
 /datum/objective/survive
@@ -653,19 +631,19 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 	steal_target = targetinfo.targetitem
 
 
-/datum/objective/download
+/datum/objective/steal
 	name = "download"
 
-/datum/objective/download/proc/gen_amount_goal()
+/datum/objective/steal/proc/gen_amount_goal()
 	target_amount = rand(20,40)
 	update_explanation_text()
 	return target_amount
 
-/datum/objective/download/update_explanation_text()
+/datum/objective/steal/update_explanation_text()
 	..()
 	explanation_text = "Download [target_amount] research node\s."
 
-/datum/objective/download/check_completion()
+/datum/objective/steal/check_completion()
 	var/datum/techweb/checking = new
 	var/list/datum/mind/owners = get_owners()
 	for(var/datum/mind/owner in owners)
@@ -681,7 +659,7 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 				TD.stored_research.copy_research_to(checking)
 	return checking.researched_nodes.len >= target_amount
 
-/datum/objective/download/admin_edit(mob/admin)
+/datum/objective/steal/admin_edit(mob/admin)
 	var/count = input(admin,"How many nodes ?","Nodes",target_amount) as num|null
 	if(count)
 		target_amount = count
@@ -824,42 +802,6 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 
 /datum/objective/chaos/check_completion()
 	return TRUE
-//End Changeling Objectives
-
-/datum/objective/destroy
-	name = "destroy AI"
-	martyr_compatible = 1
-
-/datum/objective/destroy/find_target(dupe_search_range)
-	var/list/possible_targets = active_ais(1)
-	var/mob/living/silicon/ai/target_ai = pick(possible_targets)
-	target = target_ai.mind
-	update_explanation_text()
-	return target
-
-/datum/objective/destroy/check_completion()
-	if(target && target.current)
-		return target.current.stat == DEAD || target.current.z > 6 || !target.current.ckey //Borgs/brains/AIs count as dead for traitor objectives.
-	return TRUE
-
-/datum/objective/destroy/update_explanation_text()
-	..()
-	if(target && target.current)
-		explanation_text = "Destroy [target.name], the experimental AI."
-	else
-		explanation_text = "Free Objective"
-
-/datum/objective/destroy/admin_edit(mob/admin)
-	var/list/possible_targets = active_ais(1)
-	if(possible_targets.len)
-		var/mob/new_target = input(admin,"Select target:", "Objective target") as null|anything in sortNames(possible_targets)
-		target = new_target.mind
-	else
-		to_chat(admin, "No active AIs with minds")
-	update_explanation_text()
-
-/datum/objective/destroy/internal
-	var/stolen = FALSE 		//Have we already eliminated this target?
 
 /datum/objective/steal_five_of_type
 	name = "steal five of"
@@ -927,16 +869,14 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 
 	var/list/allowed_types = sortList(list(
 		/datum/objective/assassinate,
-		/datum/objective/maroon,
 		/datum/objective/debrain,
 		/datum/objective/protect,
-		/datum/objective/destroy,
 		/datum/objective/hijack,
-		/datum/objective/escape,
+		/datum/objective/survive,
 		/datum/objective/survive,
 		/datum/objective/martyr,
 		/datum/objective/steal,
-		/datum/objective/download,
+		/datum/objective/steal,
 		/datum/objective/nuclear,
 		/datum/objective/capture,
 		/datum/objective/absorb,

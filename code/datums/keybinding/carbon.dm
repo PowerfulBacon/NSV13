@@ -46,7 +46,7 @@
 
 
 /datum/keybinding/carbon/select_grab_intent
-	key = "3"
+	key = "4"
 	name = "select_grab_intent"
 	full_name = "Select grab intent"
 	description = ""
@@ -60,7 +60,7 @@
 
 
 /datum/keybinding/carbon/select_harm_intent
-	key = "4"
+	key = "3"
 	name = "select_harm_intent"
 	full_name = "Select harm intent"
 	description = ""
